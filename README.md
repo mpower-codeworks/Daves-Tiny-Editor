@@ -7,4 +7,11 @@ This is an extension of tiny.asm Hello Windows by Dave Plummer. The idea is to m
 
 Important: Programs using Crinkler can be flagged as a false-positive by antivirus, including Windows Defender. You need to make an antivirus exception folder to build this, or Windows will likely delete your exe as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES.
 
-You need to have Crinkler installed in a directory 
+You need to have Crinkler installed in a directory that has been added to PATH. Example:
+
+C:\utils\Crinkler.exe
+
+Build the exe in a folder that has been excluded from antivirus check. Example:
+
+C:\assem_test\
+
