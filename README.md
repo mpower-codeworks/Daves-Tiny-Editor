@@ -3,6 +3,8 @@ A working Windows text editor in 946 bytes.
 
 <img src="images/dte-size-properties.jpg" alt="DTE executable properties showing 890 bytes" width="300">
 
+<img src="images/dte-virus-scan.jpg" alt="DTE executable virus scan clean" width="300">
+
 Compiles with: MASM and Crinkler.
 
 DTE is an extension of `tiny.asm` Hello Windows by Dave Plummer https://github.com/davepl. The idea is to make a working windowed text editor in the sub-1KB category. It uses Crinkler https://github.com/runestubbe/Crinkler compression at build time.
