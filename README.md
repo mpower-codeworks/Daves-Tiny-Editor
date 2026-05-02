@@ -13,6 +13,10 @@ DTE is basically a wrapper around the EDIT control from the WinAPI. It does not 
 - You need to have Crinkler installed in a directory that has been added to PATH.<br>
 Example: C:\utils\Crinkler.exe<br>
 - Build the exe in a folder that has been excluded from antivirus check.<br>
-Example: C:\assem_test\ <br>
+Example: C:\assem_test\
+
+Contents:
+---------
+
 
 
