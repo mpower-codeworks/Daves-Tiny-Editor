@@ -16,9 +16,11 @@ Example: C:\utils\Crinkler.exe<br>
 Example: C:\assem_test\
 
 Contents: <br>
+| Folder | Description |
+|--------|-------------|
 | `ALT BUILD` | Builds without Crinkler for everyday use. |
-| `BACKUPS` | Build history showing DTE evolving from Hello Windows. |
-| `ORIGINAL` | The original source from Dave Plummer's GitHub. |
+| `BACKUPS` | The history of building up DTE from Hello Windows. |
+| `ORIGINAL` | The original from davepl's GitHub. |
 
 
 
