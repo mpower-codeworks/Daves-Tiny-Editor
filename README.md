@@ -15,7 +15,7 @@ Example: C:\utils\Crinkler.exe<br>
 - Build the EXE in a folder that has been excluded from antivirus check.<br>
 Example: C:\assem_test\
 
-#Contents: <br>
+##Contents: <br>
 | Folder | Description |
 |--------|-------------|
 | `ALT BUILD` | Builds without Crinkler for everyday use. |
