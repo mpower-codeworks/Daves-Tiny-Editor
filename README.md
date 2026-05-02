@@ -9,7 +9,8 @@ DTE is basically a wrapper around the EDIT control from the WinAPI. It does not 
 
 **Important:** Programs using Crinkler can be flagged as a false-positive by antivirus, including Windows Defender. You need to make an antivirus exception folder to build this, or Windows will likely delete your exe as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can do this with Powershell, but I am not going to tell you how. Sorry. You're on your own when messing with antivirus.
 
+MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0 <br>
 You need to have Crinkler installed in a directory that has been added to PATH.<br>Example: C:\utils\Crinkler.exe<br>
 Build the exe in a folder that has been excluded from antivirus check.<br>Example: C:\assem_test\ <br>
-MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0
+
 
