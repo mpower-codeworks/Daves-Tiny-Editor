@@ -1,7 +1,7 @@
 # Daves Tiny Editor (DTE) v1.17
 A Windows text editor in 890 bytes.
 
-Compiles with: MASM and Crinkler
+Compiles with: MASM and Crinkler.
 
 DTE is an extension of tiny.asm Hello Windows by Dave Plummer https://github.com/davepl. The idea is to make a working windowed text editor in the sub-1KB category. It uses Crinkler https://github.com/runestubbe/Crinkler compression at build time.
 
