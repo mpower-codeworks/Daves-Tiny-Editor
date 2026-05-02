@@ -20,7 +20,7 @@ Example: C:\utils\Crinkler.exe<br>
 ## Contents: <br>
 | Folder | Description |
 |--------|-------------|
-| `ALT BUILD` | A more aggressive build. Needs AV exception to be usable.|
+| `ALT BUILD` | A more aggressive 890 bytes build. Needs AV exception to be usable.|
 | `BACKUPS` | The history of building up DTE from Hello Windows. |
 | `ORIGINAL` | The original from davepl's GitHub. |
 
