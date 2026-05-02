@@ -18,7 +18,7 @@ Example: C:\assem_test\
 Contents: <br>
 [ALT BUILD] -- builds without Crinkler for everyday use. <br>
 [BACKUPS]  --- the history of building up DTE from hello windows. <br>
-[ORIGINAL] --- the original from davepl's github. <br>
+[ORIGINAL]  -- the original from davepl's github. <br>
 
 
 
