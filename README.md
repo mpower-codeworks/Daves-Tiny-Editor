@@ -24,8 +24,8 @@ Contents: <br>
 
 | File | Description |
 |------|-------------|
-| `DAVES TINY EDITOR ABOUT.txt` | Explains some design decisions. |
 | `DRAG ME ONTO DTE.txt` | How to use DTE. |
+| `DTE ABOUT.txt` | Explains some design decisions. |
 | `dte.asm` | The program. |
 
 
