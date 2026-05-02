@@ -32,6 +32,8 @@ Example: C:\assem_test\
 | `dte.asm` | The program. |
 | `LICENSE` | Usage permissions. |
 
+<img src="dte-shopping-list.jpg" alt="DTE example usage" width="300">
+
 
 
 
