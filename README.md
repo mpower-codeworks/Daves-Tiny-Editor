@@ -16,7 +16,8 @@ Example: C:\utils\Crinkler.exe<br>
 Example: C:\assem_test\
 
 Contents:
-[ALT BUILD] -- builds without Crinkler for everyday use.
+[ALT BUILD]<br>
+-- builds without Crinkler for everyday use.
 
 
 
