@@ -1,4 +1,4 @@
-# Daves-Tiny-Editor (DTE)
+# Daves-Tiny-Editor (DTE) v1.17
 A Windows text editor in 890 bytes.
 
 Compiles with: MASM and Crinkler
