@@ -32,7 +32,8 @@ Example: C:\assem_test\
 | `dte.asm` | The program. |
 | `LICENSE` | Usage permissions. |
 
-DTE in action: <br>
+## DTE in action: <br>
+
 <img src="images/dte-shopping-list.jpg" alt="DTE example usage" width="300">
 
 
