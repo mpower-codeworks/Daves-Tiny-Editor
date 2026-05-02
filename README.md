@@ -1,7 +1,7 @@
 # Dave's Tiny Editor (DTE) v1.17
 A Windows text editor in 890 bytes.
 
-<img src="dte-size-properties.jpg" alt="DTE executable properties showing 890 bytes" width="450">
+<img src="dte-size-properties.jpg" alt="DTE executable properties showing 890 bytes" width="350">
 
 Compiles with: MASM and Crinkler.
 
