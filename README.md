@@ -1,7 +1,7 @@
 # Dave's Tiny Editor (DTE) v1.17
 A Windows text editor in 890 bytes.
 
-<img src="dte-size-properties.jpg" alt="DTE executable properties showing 890 bytes" width="300">
+<img src="images/dte-size-properties.jpg" alt="DTE executable properties showing 890 bytes" width="300">
 
 Compiles with: MASM and Crinkler.
 
@@ -32,7 +32,7 @@ Example: C:\assem_test\
 | `dte.asm` | The program. |
 | `LICENSE` | Usage permissions. |
 
-<img src="dte-shopping-list.jpg" alt="DTE example usage" width="300">
+<img src="images/dte-shopping-list.jpg" alt="DTE example usage" width="300">
 
 
 
