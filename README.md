@@ -28,6 +28,7 @@ Contents: <br>
 | `DRAG ME ONTO DTE.txt` | How to use DTE. |
 | `DTE ABOUT.txt` | Explains some design decisions. |
 | `dte.asm` | The program. |
+| `LICENSE` | Usage permissions. |
 
 
 
