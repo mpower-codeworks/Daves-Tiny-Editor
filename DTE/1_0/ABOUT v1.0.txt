@@ -1,0 +1,30 @@
+==================================================
+DDD  TTTTTT EEEE          11      000          DTE
+D  D   TT   E            111     0  00         AID
+D  D   TT   EEE      v v  11     0 0 0         VNI
+D  D   TT   E        v v  11  .. 00  0         EYT
+DDD    TT   EEEE      v  11l1 ..  000          S O
+                                                 R
+==================================================
+Version 1.0  uses the  EDIT control  and  stronger
+Crinkler  settings.  Once  it  was  realized  that
+RICHEDIT50W could be  pulled in instead,  Crinkler
+was backed off and v2.0 was born. All of v1.0  was
+done with the expectation that a/v exceptions were
+in place. 1.0  was worked down  to 890 bytes  with
+working save and there might still be more to go.
+                     --*--
+The 1_0_BACKUPS folder contains the walk-up of the
+project from tiny.asm to working editor.
+                     --*--
+DTE 2.0 is pretty much maxxed out, so in some ways
+v1.0 might be more interesting to pursue further.
+                     --*--
+If you try any of these, and same goes for most of
+v2.0  as well,  watch for  builds  missing a clean
+exit routine. This wasn't reintroduced until v2.09
+after like 10 instances of DTE were  found running
+in taskman.
+                     --*--
+It also  might be interesting to  see how far v1.0
+and v2.0 could diverge from one another.
