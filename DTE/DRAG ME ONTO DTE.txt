@@ -1,0 +1,112 @@
+
+    / / / / / / / / / / / /
+  / / HOW TO USE DTE  / /
+/ / / / / / / / / / / /
+
+Well hopefully you've opened this file 
+by dragging it onto dte.exe
+
+DTE can be opened two ways:
+---------------------------
+1: Drag and drop a file onto it.
+2: Command line: dte <filename>.
+
+If no input file, DTE closes.
+
+Creating a new file:
+--------------------
+1: Just use Windows r/click new text
+    document and drop that onto DTE.
+2: Command line: dte <filename>
+    will create new if none present.
+    The file is created on disk when
+    you save it.
+
+Saving a file:
+--------------
+Click the system menu in the upper left
+corner of the window and choose Save.
+There is no Ctrl+S.
+
+Quitting DTE
+------------
+1: Window upper right X
+2: System menu: Close
+3: Keys: ALT-F4
+
+DTE closes regardless of save state, so
+be sure to save your file. This is also
+a "throw away changes" feature.
+
+Word Wrap
+---------
+Word wrap is always on.
+
+Keyboard Navigation
+-------------------
+Arrow keys:         Move cursor in that direction
+Home                Start of line
+End                 End of line
+Ctrl + Home         Top of file
+Ctrl + End          End of file
+Page Up             Scroll up
+Page Down           Scroll down
+Ctrl + Left         Move to previous word
+Ctrl + Right        Move to next word
+
+Selection
+---------------
+Shift + Arrow       Extend selection
+Shift + Home        Select to start of line
+Shift + End         Select to end of line
+Ctrl + Shift + Home Select to top of file
+Ctrl + Shift + End  Select to end of file
+Ctrl + A            Select all
+L/Click & Drag:     All of the above
+
+Editing
+-------
+Backspace           Delete character before cursor
+Delete              Delete character at cursor
+Ctrl + Backspace    Delete previous word
+Ctrl + Delete       Delete next word
+Enter               Insert newline
+
+Clipboard:
+----------
+Ctrl + C            Copy
+Ctrl + Insert       Copy
+Ctrl + X            Cut
+Shift + Delete      Cut
+Ctrl + V            Paste
+Shift + Insert      Paste
+
+Undo / Redo:
+------------
+Ctrl + Z            undo
+Ctrl + Y            redo
+
+Right-Click Editor Menu:
+------------------------
+Disabled. Use keyboard commands.
+
+System Menu
+-----------
+Can be accessed by upper left icon or
+by r/click anywhere in the title bar.
+
+Wish They Could Be Added:
+-------------------------
+Find
+Ctrl + S (save)
+
+With only 18 bytes left, Find
+seems impossible (for now) to
+achieve.
+
+DTE Max Editable File Size
+--------------------------
+100 MB files verified as working. It
+might take about 30 seconds to  load
+a file like that, but it works.
+
