@@ -20,19 +20,18 @@ Example: C:\utils\Crinkler.exe<br>
 ## Contents: <br>
 | Folder | Description |
 |--------|-------------|
-| `ALT BUILD` | A more aggressive 890 bytes build. Needs AV exception to be usable.|
-| `BACKUPS` | The history of building up DTE from Hello Windows. |
-| `ORIGINAL` | The original from davepl's GitHub. |
+| `1_0` | A more aggressive 890 bytes build. Needs AV exception to be usable.|
+| `2_0_BACKUPS` | Version 2.0 from RICHEDIT to releas.|
 
 | File | Description |
 |------|-------------|
 | `build.bat` | Builds DTE from command line. |
 | `DRAG ME ONTO DTE.txt` | How to use DTE. |
 | `DTE ABOUT.txt` | Explains some design decisions. |
-| `dte.asm` | The program. |
+| `dte.asm` | The program. Version 2.0.9 |
 | `LICENSE` | Usage permissions. |
 
-## DTE in action: <br>
+## DTE in use: <br>
 
 <img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
 
