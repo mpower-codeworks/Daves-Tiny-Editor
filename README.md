@@ -20,8 +20,8 @@ Example: C:\utils\Crinkler.exe<br>
 ## Contents: <br>
 | Folder | Description |
 |--------|-------------|
-| `1_0` | A more aggressive 890 bytes build. Needs AV exception to be usable.|
-| `2_0_BACKUPS` | Version 2.0 from RICHEDIT to releas.|
+| `1_0` | Version 1.0 aggressive 890 bytes builds. Needs AV exception to be usable.|
+| `2_0_BACKUPS` | Version 2.0 973 bytes builds from RICHEDIT to release.|
 
 | File | Description |
 |------|-------------|
