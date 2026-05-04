@@ -1,5 +1,5 @@
 # Dave's Tiny Editor (DTE) v2.0.9
-A working Windows text editor in 973 bytes.
+A working Windows text editor in 981 bytes.
 
 <img src="images/dte-size-properties.jpg" alt="DTE executable properties showing 890 bytes" width="300">
 
@@ -9,7 +9,7 @@ Compiles with: MASM and Crinkler.
 
 DTE is an extension of `tiny.asm` Hello Windows by Dave Plummer https://github.com/davepl. The idea is to make a working windowed text editor in the sub-1KB category. It uses Crinkler https://github.com/runestubbe/Crinkler compression at build time.
 
-DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versions 1.0+ use the EDIT control with Crinkler cranked and were built-up from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. Versions 2.0+ have Crinkler backed-off a bit and use RICHEDIT to gain cheaper access to Courier font and much larger files. 2.0+ was then worked down from 995 to 973 bytes. 
+DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versions 1.0+ use the EDIT control with Crinkler cranked and were built-up from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. Versions 2.0+ have Crinkler backed-off a bit and use RICHEDIT to gain cheaper access to Courier font and much larger files. 2.0+ was then worked down from 995 to 981 bytes. 
 
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this (especially for 1.0+), or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell, but I am not going to tell you how. Sorry. You're on your own when messing with antivirus.
 
@@ -21,7 +21,7 @@ Example: C:\utils\Crinkler.exe<br>
 | Folder | Description |
 |--------|-------------|
 | `1_0` | Version 1.0 aggressive 890 bytes build. Needs AV exception to be usable.|
-| `2_0_BACKUPS` | Version 2.0 more features 973 bytes build from RICHEDIT to release.|
+| `2_0_BACKUPS` | Version 2.0 more features 981 bytes build from RICHEDIT to release.|
 
 | File | Description |
 |------|-------------|
