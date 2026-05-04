@@ -15,7 +15,7 @@ DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versi
 
 - MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0 <br>
 - Build.bat contains: /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86"<br>
-You may need to change to fit your system: /LIBPATH:"....\Windows Kits\10\Lib\<your version>\um\x86"
+You may need to change to fit your system: /LIBPATH:"....\Windows Kits\10\Lib\\<your version>\um\x86"
 - You need to have Crinkler installed in a directory that has been added to PATH.<br>
 Example: C:\utils\Crinkler.exe<br>
 
