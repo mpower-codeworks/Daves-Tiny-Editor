@@ -1,5 +1,5 @@
-# Dave's Tiny Editor (DTE) v2.0.7
-A working Windows text editor in 971 bytes.
+# Dave's Tiny Editor (DTE) v2.0.8
+A working Windows text editor in 973 bytes.
 
 <img src="images/dte-size-properties.jpg" alt="DTE executable properties showing 890 bytes" width="300">
 
