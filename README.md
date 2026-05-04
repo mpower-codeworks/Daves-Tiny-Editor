@@ -34,7 +34,7 @@ Example: C:\utils\Crinkler.exe<br>
 
 ## DTE in action: <br>
 
-<img src="images/dte-shopping-list.jpg" alt="DTE example usage" width="300">
+<img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
 
 
 
