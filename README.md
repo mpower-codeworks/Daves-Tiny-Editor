@@ -37,6 +37,6 @@ Example: C:\utils\Crinkler.exe<br>
 
 <img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
 
-
+<img src="images/dt.jpg" alt="DTE executable virus scan clean" width="300">
 
 
