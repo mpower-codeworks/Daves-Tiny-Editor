@@ -1,9 +1,27 @@
 # Dave's Tiny Editor (DTE) v2.0.9
 A working Windows text editor in 981 bytes.
 
-<img src="images/dte-size-properties.jpg" alt="DTE executable properties showing 890 bytes" width="300">
-
-<img src="images/dte-virus-scan.jpg" alt="DTE executable virus scan clean" width="300">
+<table>
+  <tr>
+    <td>
+      <img src="images/dte-size-properties.jpg"
+           alt="DTE executable properties showing 890 bytes"
+           width="300">
+    </td>
+    <td rowspan="2">
+      <img src="images/DT.jpg"
+           alt="D.T. Mascot"
+           width="300">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/dte-virus-scan.jpg"
+           alt="DTE executable virus scan clean"
+           width="300">
+    </td>
+  </tr>
+</table>
 
 Compiles with: MASM and Crinkler.
 
