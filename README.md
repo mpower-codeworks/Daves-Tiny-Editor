@@ -41,7 +41,7 @@ STD_ALERT struct<br>
     alrt_servicename WCHAR [SNLEN + 1] dup(?)<br>
 STD_ALERT ends
 ```
-to:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to:<br>
 ```
 STD_ALERT struct<br>
         alrt_timestamp dd ?<br>
