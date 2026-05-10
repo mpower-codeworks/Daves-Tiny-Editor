@@ -40,7 +40,9 @@ STD_ALERT struct<br>
     alrt_eventname WCHAR  [EVLEN + 1] dup(?)<br>
     alrt_servicename WCHAR [SNLEN + 1] dup(?)<br>
 STD_ALERT ends
---
+```
+to:
+```
 STD_ALERT struct<br>
         alrt_timestamp dd ?<br>
         alrt_eventname WCHAR  (EVLEN + 1) dup(?)<br>
