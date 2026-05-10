@@ -33,23 +33,23 @@ DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versi
 
 - MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0 <br>
 
-In masm32\include\winextra.inc change:
---------------------------------------
-STD_ALERT struct
-    alrt_timestamp dd ?
-    alrt_eventname WCHAR  [EVLEN + 1] dup(?)
-    alrt_servicename WCHAR [SNLEN + 1] dup(?)
-STD_ALERT ends
-
-to:
----
-STD_ALERT struct
-    alrt_timestamp dd ?
-    alrt_eventname WCHAR  (EVLEN + 1) dup(?)
-    alrt_servicename WCHAR (SNLEN + 1) dup(?)
-STD_ALERT ends
-
-The brackets on lines 13,14 were changed to parens.
+In masm32\include\winextra.inc change:<br>
+--------------------------------------<br>
+STD_ALERT struct<br>
+    alrt_timestamp dd ?<br>
+    alrt_eventname WCHAR  [EVLEN + 1] dup(?)<br>
+    alrt_servicename WCHAR [SNLEN + 1] dup(?)<br>
+STD_ALERT ends<br>
+<br>
+to:<br>
+---<br>
+STD_ALERT struct<br>
+    alrt_timestamp dd ?<br>
+    alrt_eventname WCHAR  (EVLEN + 1) dup(?)<br>
+    alrt_servicename WCHAR (SNLEN + 1) dup(?)<br>
+STD_ALERT ends<br>
+<br>
+The brackets on lines 13,14 were changed to parens.<br>
 
 - Build.bat contains: /LIBPATH:"C:\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.20348.0\\um\\x86"<br>
 You may need to change to fit your system: /LIBPATH:"....\\Windows Kits\\10\\Lib\\(your version)\\um\\x86"
