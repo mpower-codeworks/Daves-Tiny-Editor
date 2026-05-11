@@ -33,6 +33,11 @@ DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versi
 
 - MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0 <br>
 
+- MASM can vary depending on version. If you experience:
+```
+C:\masm32\include\winextra.inc(11052) : error A2026:constant expected
+C:\masm32\include\winextra.inc(11053) : error A2026:constant expected
+```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In masm32\include\winextra.inc change:<br>
 ```
     STD_ALERT struct<br>
