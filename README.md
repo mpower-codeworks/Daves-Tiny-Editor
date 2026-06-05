@@ -1,5 +1,6 @@
 # Dave's Tiny Editor (DTE) v2.0.9
-A working Windows text editor in 981 bytes.
+A working Windows text editor in 981 bytes.<br><br>
+New! June 2026: DTE has in collaboration with Dave Plummer been expanded into TinyRetroPad, a full-featured Notepad work-alike editor in 2.62 kb! You can find TinyRetroPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad).
 
 <table border="0">
   <tr>
@@ -42,16 +43,16 @@ C:\masm32\include\winextra.inc(11053) : error A2026:constant expected
 ```
     STD_ALERT struct<br>
         alrt_timestamp dd ?<br>
-        alrt_eventname WCHAR  [EVLEN + 1] dup(?)<br>
-        alrt_servicename WCHAR [SNLEN + 1] dup(?)<br>
+        alrt_eventname WCHAR  [EVLEN + 1] dup(?)
+        alrt_servicename WCHAR [SNLEN + 1] dup(?)
     STD_ALERT ends
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to:<br>
 ```
     STD_ALERT struct<br>
         alrt_timestamp dd ?<br>
-        alrt_eventname WCHAR  (EVLEN + 1) dup(?)<br>
-        alrt_servicename WCHAR (SNLEN + 1) dup(?)<br>
+        alrt_eventname WCHAR  (EVLEN + 1) dup(?)
+        alrt_servicename WCHAR (SNLEN + 1) dup(?)
     STD_ALERT ends<br>
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The brackets on lines 13,14 were changed to parens.<br>
