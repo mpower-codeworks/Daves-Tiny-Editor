@@ -1,0 +1,57 @@
+Dave's Tiny Editor v2.0.8 -  a working editor in:
+
+995 bytes -- done -- RICH EDIT CON
+993 bytes -- done -- RICH EDIT CON
+989 bytes -- done -- RICH EDIT CON
+981 bytes -- done -- RICH EDIT CON
+980 bytes -- done -- RICH EDIT CON
+976 bytes -- done -- RICH EDIT CON
+975 bytes -- done -- RICH EDIT CON release version
+973 bytes -- done -- RICH EDIT CON
+971 bytes -- done -- RICH EDIT CON
+959 bytes -- done -- EDIT CON
+954 bytes -- done -- EDIT CON
+946 bytes -- done -- EDIT CON release version
+938 bytes -- done -- EDIT CON
+937 bytes -- done -- EDIT CON
+933 bytes -- done -- EDIT CON
+928 bytes -- done -- EDIT CON
+919 bytes -- done -- EDIT CON
+911 bytes -- done -- EDIT CON
+906 bytes -- done -- EDIT CON
+903 bytes -- done -- EDIT CON
+898 bytes -- done -- EDIT CON
+897 bytes -- done -- EDIT CON
+893 bytes -- done -- EDIT CON
+892 bytes -- done -- EDIT CON
+890 bytes -- done -- EDIT CON experimental version
+
+DTE  is based on the  tiny.asm  windows  application
+by Dave Plummer.
+
+Open a file by drag / drop onto the .exe or from the
+command line> dte filename. This style was chosen to
+avoid having a save filename:  dialog or text input.
+
+The window class name is "." to save bytes and since
+we already have the file name we can use that as the
+caption.   It costs almost nothing to do so and also
+helps a lot with the UI.  The modified file * seemed
+like a natural fit.
+
+File: Save was appended to the window system menu to
+avoid adding a menu bar.
+
+New for version 2.0 -- Rich Edit control integration
+allows loading Courier mono-spaced font. DTE can now
+be used to edit itself (painfully). 
+
+The  RICHEDIT50W  control handles most of the  heavy
+lifting.  Typing, backspace, mouse interaction, text
+highlighting, and memory handling come pre-packaged.
+The text-wrap default style is used.
+
+Original tiny.exe:     537 bytes
+DTE final editor:      975 bytes
+---------------------------------------------
+Net cost of  editor:   438 bytes
