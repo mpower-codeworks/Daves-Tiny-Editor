@@ -1,5 +1,5 @@
-# Dave's Tiny Editor (DTE) v2.0.9
-A working Windows text editor in 981 bytes. To use DTE, drag and drop a file onto dte.exe.<br><br>
+# Dave's Tiny Editor (DTE) v2.1.0
+A working Windows text editor in 975 bytes. To use DTE, drag and drop a file onto dte.exe.<br><br>
 New! June 2026: DTE has in collaboration with Dave Plummer been expanded into RetroPad, a full-featured Notepad work-alike editor in 2.62 kb! You can find RetroPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad).
 
 <table border="0">
@@ -28,7 +28,7 @@ Compiles with: MASM and Crinkler.
 
 DTE is an extension of `tiny.asm` HelloAssembly by Dave Plummer https://github.com/davepl. The idea is to make a working windowed text editor in the sub-1KB category. It uses Crinkler https://github.com/runestubbe/Crinkler compression at build time.
 
-DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versions 1.0+ use the EDIT control with Crinkler cranked and were built-up from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. Versions 2.0+ have Crinkler backed-off a bit and use RICHEDIT to gain cheaper access to Courier font and much larger files. 2.0+ was then worked down from 995 to 981 bytes. 
+DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versions 1.0+ use the EDIT control with Crinkler cranked and were built-up from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. Versions 2.0+ have Crinkler backed-off a bit and use RICHEDIT to gain cheaper access to Courier font and much larger files. 2.0+ was then worked down from 995 to 975 bytes. 
 
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this (especially for 1.0+), or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell, but I am not going to tell you how. Sorry. You're on your own when messing with antivirus.
 
@@ -65,14 +65,14 @@ Example: C:\utils\Crinkler.exe<br>
 | Folder | Description |
 |--------|-------------|
 | `1_0` | Version 1.0 aggressive 890 bytes build. Needs AV exception to be usable.|
-| `2_0_BACKUPS` | Version 2.0 more features, 981 bytes build from RICHEDIT to release.|
+| `2_0_BACKUPS` | Version 2.0 more features, 975 bytes build from RICHEDIT to release.|
 
 | File | Description |
 |------|-------------|
 | `build.bat` | Builds DTE from command line. |
 | `DRAG ME ONTO DTE.txt` | How to use DTE. |
 | `DTE ABOUT.txt` | Explains some design decisions. |
-| `dte.asm` | The program. Version 2.0.9 |
+| `dte.asm` | The program. Version 2.1.0 |
 | `LICENSE` | Usage permissions. |
 
 ## DTE in use: <br>
