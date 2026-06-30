@@ -1,6 +1,6 @@
 # Dave's Tiny Editor (DTE) v2.1.0
 A working Windows text editor in 975 bytes. To use DTE, drag and drop a file onto dte.exe.<br><br>
-New! June 2026: DTE has in collaboration with Dave Plummer been expanded into TinyRetroPad, a full-featured Notepad work-alike editor in 2.62 kb! You can find RetroPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad).
+New! June 2026: DTE has in collaboration with Dave Plummer been expanded into TinyRetroPad, a full-featured Notepad work-alike editor in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad) and a video about it [here](https://www.youtube.com/watch?v=OG91c7xsNMc).
 
 <table border="0">
   <tr>
