@@ -7,7 +7,7 @@
 ; Dave's Tiny Editor 2.0.9         ;
 ; Based on Dave Plummer's tiny app ;
 ;----------------------------------;
-
+ 
 ; Dave's Tiny Editor (DTE)
 ; Copyright (c) 2026 Matthew M. Power
 ; Licensed under the Apache License, Version 2.0.
