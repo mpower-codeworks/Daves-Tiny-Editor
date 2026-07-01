@@ -2,7 +2,7 @@
 A working Windows text editor in 967 bytes. To use DTE, drag and drop a file onto dte.exe.<br><br>
 Update: Some people correctly pointed out that DTE and TRPad were both grabbing 500mb of RAM at runtime. There were two errors causing this:<br>
 1) The DTE code was literally asking for 500mb to be reserved via push 07FFFFFFEh. That is because I mistakenly set it that way thinking it allowed *up to* 500mb files. Those lines of code were removed.<br><br>
-2) The buidler build.bat needed to have /hashsize:# added for Crinkler. Here we're setting it to 11, giving a final exe of 967 byes and DTE runs in 12mb of RAM. This is adjustable. For example, /hashsize:1 brings RAM usage down to 2mb and increases the exe size to about 985 bytes. Any /hashsize:# settings higher than 11 or so drastically increases RAM usage with little exe size reduction (about 1 byte).<br>
+2) The builder build.bat needed to have /hashsize:# added for Crinkler. Here we're setting it to 11, giving a final exe of 967 bytes and DTE runs in 12mb of RAM. This is adjustable. For example, /hashsize:1 brings RAM usage down to 2mb and increases the exe size to about 985 bytes. Any /hashsize:# settings higher than 11 or so drastically increases RAM usage with little exe size reduction (about 1 byte).<br>
 
 New! June 2026: DTE has in collaboration with Dave Plummer been expanded into TinyRetroPad, a full-featured Notepad work-alike editor in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad) and a video about it [here](https://www.youtube.com/watch?v=OG91c7xsNMc).
 
