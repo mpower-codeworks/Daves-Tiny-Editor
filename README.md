@@ -68,7 +68,7 @@ Example: C:\utils\Crinkler.exe<br>
 ## Contents: <br>
 | Folder | Description |
 |--------|-------------|
-| `1_0` | Version 1.0 926 bytes build. Uses standard non-mono font.|
+| `1_0` | Version 1.0 non-mono font 926 bytes build.|
 | `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release.|
 
 | File | Description |
