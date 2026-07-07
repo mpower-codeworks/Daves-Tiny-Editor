@@ -31,6 +31,8 @@ New! June 2026: DTE has in collaboration with Dave Plummer been expanded into Ti
 
 Compiles with: MASM and Crinkler.
 
+<img src="images/sve_exmpl.jpg" align="left" alt="System Menu"> You can find the Save button in the window's system menu.
+
 DTE is an extension of `tiny.asm` HelloAssembly by Dave Plummer https://github.com/davepl. The idea is to make a working windowed text editor in the sub-1KB category. It uses Crinkler https://github.com/runestubbe/Crinkler compression at build time.
 
 DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versions 1.0+ use the EDIT control with Crinkler cranked and were built-up from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. Versions 2.0+ have Crinkler backed-off a bit and use RICHEDIT to gain cheaper access to Courier font and much larger files. 2.0+ was then worked down from 995 to 967 bytes. 
