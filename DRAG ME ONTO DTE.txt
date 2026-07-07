@@ -3,8 +3,19 @@
   / / HOW TO USE DTE  / /
 / / / / / / / / / / / /
 
-Well hopefully you've opened this file 
-by dragging it onto dte.exe
+Well hopefully you've opened this file by
+dragging it onto dte.exe.
+
+Version 1.0  is about as tight  as it can
+be while still functional. Not usable for
+programming  because of the non-mono font
+and no  line ending management.  Works ok
+for quick note taking.
+
+Version 2.0 is the main release.  It uses
+the Courier font and handles line endings
+and indentation decently.  Version 2.0 of
+DTE has been used to edit itself.
 
 DTE can be opened two ways:
 ---------------------------
