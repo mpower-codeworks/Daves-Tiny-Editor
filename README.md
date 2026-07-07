@@ -1,5 +1,5 @@
 # Dave's Tiny Editor (DTE) v2.1.1
-A working Windows text editor in 967 bytes. To use DTE, drag and drop a file onto dte.exe.<br><br>
+A working Windows text editor in 967 bytes.<br>
 <table border="0">
   <tr>
     <td>
@@ -21,6 +21,10 @@ A working Windows text editor in 967 bytes. To use DTE, drag and drop a file ont
     </td>
   </tr>
 </table>
+To use DTE, drag and drop a file onto dte.exe.<br><br>
+
+Version 2.0 is the main distribution. 1.0 is smaller, more experimental.<br>
+
 Update: Some people correctly pointed out that DTE and TRPad were both grabbing 500mb of RAM at runtime. There were two errors causing this:<br>
 
 1) The DTE code was literally asking for 500mb to be reserved via push 07FFFFFFEh. That is because I mistakenly set it that way thinking it allowed *up to* 500mb files. Those lines of code were removed.<br>
@@ -71,7 +75,7 @@ Example: C:\utils\Crinkler.exe<br>
 ## Contents: <br>
 | Folder | Description |
 |--------|-------------|
-| `1_0` | Version 1.0 non-mono font 926 bytes build.|
+| `1_0` | Version 1.0 non-mono font 926 bytes build with full history.|
 | `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release.|
 
 | File | Description |
