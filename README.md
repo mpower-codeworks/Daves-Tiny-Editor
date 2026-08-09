@@ -1,5 +1,5 @@
-# Dave's Tiny Editor (DTE) v2.1.1
-A working Windows text editor in 967 bytes.<br>
+# Dave's Tiny Editor (DTE) v3.3.1
+### A working Windows text editor in 794 bytes.<br>
 <table border="0">
   <tr>
     <td>
@@ -21,6 +21,20 @@ A working Windows text editor in 967 bytes.<br>
     </td>
   </tr>
 </table>
+
+DTE 3.0 has arrived, and it's breaking barriers! DTE 3.0 is a complete
+rewrite from blank and documents the major changes along the way. Thirty
+one historical versions from 372 bytes init to 908 bytes full functionality,
+and then worked down again to 794 bytes working version are included. 
+
+Fewer imports, persistent file handle, static class window, no
+includes, file I/O via RICHEDIT20W, and by special appearance:
+
+### A fake file dirty marker!
+
+There is no flag to set, a * is simply appended to the title on file
+change and removed on save.
+
 To use DTE, drag and drop a file onto dte.exe.<br><br>
 
 Version 2.0 is the main distribution. 1.0 is smaller, more experimental.<br>
