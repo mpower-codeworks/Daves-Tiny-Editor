@@ -79,6 +79,26 @@ no way to save that file, but I have some ideas. If no file name:
 I will have to spend some time to figure out how to handle it. I'd really like
 to keep 3.0 under 800 bytes. There's just something about "being in the sevens."
 
+## Contents: <br>
+| Folder | Description |
+|--------|-------------|
+| `1_0` | Version 1.0 non-mono font 926 bytes build with full history.|
+| `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release.|
+| `1_0` | Version 3.0 complete rewrite, 794 bytes build from blank to release.
+
+| File | Description |
+|------|-------------|
+| `build.bat` | Builds DTE from command line. |
+| `DRAG ME ONTO DTE.txt` | How to use DTE. |
+| `DTE ABOUT.txt` | Explains some design decisions. |
+| `dte.asm` | The program. Version 3.3.1 |
+| `LICENSE` | Usage permissions. |
+
+## DTE in use: <br>
+<img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
+
+### Conpiling, and ff You're New to Crinker
+
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this (especially for 1.0+), or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell, but I am not going to tell you how. Sorry. You're on your own when messing with antivirus.
 
 - MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0 <br>
@@ -109,22 +129,5 @@ C:\masm32\include\winextra.inc(11053) : error A2026:constant expected
 You may need to change to fit your system: /LIBPATH:"....\\Windows Kits\\10\\Lib\\(your version)\\um\\x86"
 - You need to have Crinkler installed in a directory that has been added to PATH.<br>
 Example: C:\utils\Crinkler.exe<br>
-
-## Contents: <br>
-| Folder | Description |
-|--------|-------------|
-| `1_0` | Version 1.0 non-mono font 926 bytes build with full history.|
-| `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release.|
-
-| File | Description |
-|------|-------------|
-| `build.bat` | Builds DTE from command line. |
-| `DRAG ME ONTO DTE.txt` | How to use DTE. |
-| `DTE ABOUT.txt` | Explains some design decisions. |
-| `dte.asm` | The program. Version 2.1.1 |
-| `LICENSE` | Usage permissions. |
-
-## DTE in use: <br>
-<img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
 
 
