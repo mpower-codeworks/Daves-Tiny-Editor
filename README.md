@@ -40,7 +40,7 @@ change and removed on save.
 To use DTE, drag and drop a file onto dte.exe.
 
 Version 3.0 is the main distribution. 2.0 is a more standard,
-optimized tiny exe. 1.0 is smaller, more experimental.
+optimized tiny exe. 1.0 is limited by EDIT, and more experimental.
 
 (Old) New! June 2026: DTE (2.0) has in collaboration with Dave Plummer been
 expanded into TinyRetroPad, a full-featured Notepad work-alike editor
