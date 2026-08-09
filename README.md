@@ -59,7 +59,7 @@ at build time.
 DTE is basically a wrapper around the RICHEDIT20W control from the WinAPI.
 
 Versions in 1.0 use the EDIT control with Crinkler cranked and were built-up
-from tiny.asm then worked down to 926 bytes with Win Defender quite unhappy. NOTE:
+from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. NOTE:
 This has been stabilized at 926 bytes with no A/V issues.
 
 Versions in 2.0 have Crinkler backed-off a bit and use RICHEDIT to gain cheaper
