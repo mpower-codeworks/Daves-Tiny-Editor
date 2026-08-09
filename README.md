@@ -22,8 +22,9 @@
   </tr>
 </table>
 
-DTE 3.0 has arrived, and it's breaking barriers! DTE 3.0 is a complete
-rewrite from blank and documents the major changes along the way. Thirty
+### DTE 3.0 has arrived, and it's breaking barriers!
+
+DTE 3.0 is a complete rewrite from blank and documents the major changes along the way. Thirty
 one historical versions from 372 bytes init to 908 bytes full functionality,
 and then worked down again to 794 bytes working version are included. 
 
