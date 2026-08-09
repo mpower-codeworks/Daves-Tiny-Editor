@@ -4,7 +4,7 @@
   <tr>
     <td>
       <img src="images/dte-size-properties.jpg"
-           alt="DTE executable properties showing 967 bytes"
+           alt="DTE executable properties showing 794 bytes"
            width="300">
     </td>
     <td rowspan="2">
@@ -25,7 +25,7 @@
 ### DTE 3.0 has arrived, and it's breaking barriers!
 
 DTE 3.0 is a complete rewrite from blank and documents the major changes along the way.
-Thirty one historical versions from 372 bytes init to 908 bytes full functionality,
+Thirty=one historical versions from 372 bytes init to 908 bytes full functionality,
 and then worked down again to 794 bytes working version are included. 
 
 Fewer imports, persistent file handle, static class window, no
@@ -84,7 +84,7 @@ to keep 3.0 under 800 bytes. There's just something about "being in the sevens."
 |--------|-------------|
 | `1_0` | Version 1.0 non-mono font 926 bytes build with full history|
 | `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release|
-| `1_0` | Version 3.0 complete rewrite, 794 bytes build from blank to release|
+| `3_0` | Version 3.0 complete rewrite, 794 bytes build from blank to release|
 
 | File | Description |
 |------|-------------|
