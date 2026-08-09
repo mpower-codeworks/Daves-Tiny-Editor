@@ -55,7 +55,7 @@ DTE is an extension of `tiny.asm` HelloAssembly by [Dave Plummer](https://github
 The idea is to make a working windowed text editor in the sub-1KB category. It uses
 [Crinkler](https://github.com/runestubbe/Crinkler) compression at build time.
 
-DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI.
+DTE is basically a wrapper around the RICHEDIT20W control from the WinAPI.
 
 Versions in 1.0 use the EDIT control with Crinkler cranked and were built-up
 from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy.
@@ -97,7 +97,7 @@ to keep 3.0 under 800 bytes. There's just something about "being in the sevens."
 ## DTE in use: <br>
 <img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
 
-### Compiling, and if You're New to Crinker
+### Compiling, and if You're New to Crinkler
 
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this (especially for 1.0+), or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell, but I am not going to tell you how. Sorry. You're on your own when messing with antivirus.
 
