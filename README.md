@@ -41,7 +41,7 @@ To use DTE, drag and drop a file onto dte.exe.
 Version 3.0 is the main distribution. 2.0 is a more standard,
 optimized tiny exe. 1.0 is smaller, more experimental.
 
-(Old) New! June 2026: DTE has in collaboration with Dave Plummer been
+(Old) New! June 2026: DTE (2.0) has in collaboration with Dave Plummer been
 expanded into TinyRetroPad, a full-featured Notepad work-alike editor
 in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad)
 and a video about it [here](https://www.youtube.com/watch?v=OG91c7xsNMc).
@@ -51,9 +51,9 @@ Save button in the window's system menu.
 
 Compiles with: MASM and Crinkler.
 
-DTE is an extension of `tiny.asm` HelloAssembly by [Dave Plummer](https://github.com/davepl).
-The idea is to make a working windowed text editor in the sub-1KB category. It uses
-[Crinkler](https://github.com/runestubbe/Crinkler) compression at build time.
+DTE 1.0 and 2.0 are extensions of `tiny.asm` HelloAssembly by [Dave Plummer](https://github.com/davepl).
+DTE 3.0 is a complete rewrite. All versions use [Crinkler](https://github.com/runestubbe/Crinkler) compression
+at build time.
 
 DTE is basically a wrapper around the RICHEDIT20W control from the WinAPI.
 
