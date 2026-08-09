@@ -66,6 +66,14 @@ access to Courier font and much larger files. 2.0 was then worked down from
 Versions in 3.0 are a complete rewrite, yielding a functional editor in 908
 bytes (already beating 2.0) and then worked down to 794 bytes.
 
+### A Very Special Note About File I/O
+
+Version 3.0 intentionally lets a user open DTE without a file. There is currently
+no way to save that file, but I have some ideas. If no file name,
+
+1. Save as the first few chars of the file as a name.
+2. Save as a fixed file name such as "d" or "sav".
+
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this (especially for 1.0+), or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell, but I am not going to tell you how. Sorry. You're on your own when messing with antivirus.
 
 - MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0 <br>
