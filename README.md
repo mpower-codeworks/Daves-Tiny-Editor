@@ -82,17 +82,17 @@ to keep 3.0 under 800 bytes. There's just something about "being in the sevens."
 ## Contents: <br>
 | Folder | Description |
 |--------|-------------|
-| `1_0` | Version 1.0 non-mono font 926 bytes build with full history.|
-| `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release.|
-| `1_0` | Version 3.0 complete rewrite, 794 bytes build from blank to release.
+| `1_0` | Version 1.0 non-mono font 926 bytes build with full history|
+| `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release|
+| `1_0` | Version 3.0 complete rewrite, 794 bytes build from blank to release|
 
 | File | Description |
 |------|-------------|
-| `build.bat` | Builds DTE from command line. |
-| `DRAG ME ONTO DTE.txt` | How to use DTE. |
-| `DTE ABOUT.txt` | Explains some design decisions. |
+| `build.bat` | Builds DTE from command line |
+| `DRAG ME ONTO DTE.txt` | How to use DTE |
+| `DTE ABOUT.txt` | Explains some design decisions |
 | `dte.asm` | The program. Version 3.3.1 |
-| `LICENSE` | Usage permissions. |
+| `LICENSE` | Usage permissions |
 
 ## DTE in use: <br>
 <img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
