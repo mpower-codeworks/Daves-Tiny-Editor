@@ -59,7 +59,7 @@ Versions in 1.0 use the EDIT control with Crinkler cranked and were built-up
 from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy.
 
 Versions in 2.0 have Crinkler backed-off a bit and use RICHEDIT to gain cheaper
-access to Courier font and much larger files. 2.0+ was then worked down from
+access to Courier font and much larger files. 2.0 was then worked down from
 995 to 967 bytes.
 
 Versions in 3.0 are a complete rewrite, yielding a functional editor in 908
