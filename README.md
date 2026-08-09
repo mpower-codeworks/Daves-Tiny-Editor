@@ -97,7 +97,7 @@ to keep 3.0 under 800 bytes. There's just something about "being in the sevens."
 ## DTE in use: <br>
 <img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
 
-### Conpiling, and ff You're New to Crinker
+### Compiling, and if You're New to Crinker
 
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this (especially for 1.0+), or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell, but I am not going to tell you how. Sorry. You're on your own when messing with antivirus.
 
