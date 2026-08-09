@@ -35,25 +35,35 @@ includes, file I/O via RICHEDIT20W, and by special appearance:
 There is no flag to set, a * is simply appended to the title on file
 change and removed on save.
 
-To use DTE, drag and drop a file onto dte.exe.<br><br>
+To use DTE, drag and drop a file onto dte.exe.
 
-Version 2.0 is the main distribution. 1.0 is smaller, more experimental.<br>
+Version 3.0 is the main distribution. 2.0 is a more standard,
+optimized tiny exe. 1.0 is smaller, more experimental.
 
-Update: Some people correctly pointed out that DTE and TRPad were both grabbing 500mb of RAM at runtime. There were two errors causing this:<br>
-
-1) The DTE code was literally asking for 500mb to be reserved via push 07FFFFFFEh. That is because I mistakenly set it that way thinking it allowed *up to* 500mb files. Those lines of code were removed.<br>
-
-2) The builder build.bat needed to have /hashsize:# added for Crinkler. Here we're setting it to 11, giving a final exe of 967 bytes and DTE runs in 12mb of RAM. This is adjustable. For example, /hashsize:1 brings RAM usage down to 2mb and increases the exe size to about 985 bytes. Any /hashsize:# settings higher than 11 or so drastically increases RAM usage with little exe size reduction (about 1 byte).<br>
-
-New! June 2026: DTE has in collaboration with Dave Plummer been expanded into TinyRetroPad, a full-featured Notepad work-alike editor in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad) and a video about it [here](https://www.youtube.com/watch?v=OG91c7xsNMc).
-
-Compiles with: MASM and Crinkler.
+(Old) New! June 2026: DTE has in collaboration with Dave Plummer been
+expanded into TinyRetroPad, a full-featured Notepad work-alike editor
+in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad)
+and a video about it [here](https://www.youtube.com/watch?v=OG91c7xsNMc).
 
 <img src="images/sve_exmpl.jpg" align="left" alt="System Menu"> You can find the Save button in the window's system menu.
 
-DTE is an extension of `tiny.asm` HelloAssembly by Dave Plummer https://github.com/davepl. The idea is to make a working windowed text editor in the sub-1KB category. It uses Crinkler https://github.com/runestubbe/Crinkler compression at build time.
+Compiles with: MASM and Crinkler.
 
-DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI. Versions 1.0+ use the EDIT control with Crinkler cranked and were built-up from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. Versions 2.0+ have Crinkler backed-off a bit and use RICHEDIT to gain cheaper access to Courier font and much larger files. 2.0+ was then worked down from 995 to 967 bytes. 
+DTE is an extension of `tiny.asm` HelloAssembly by [Dave Plummer](https://github.com/davepl).
+The idea is to make a working windowed text editor in the sub-1KB category. It uses
+[Crinkler](https://github.com/runestubbe/Crinkler) compression at build time.
+
+DTE is basically a wrapper around the RICHEDIT50W control from the WinAPI.
+
+Versions in 1.0 use the EDIT control with Crinkler cranked and were built-up
+from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy.
+
+Versions in 2.0 have Crinkler backed-off a bit and use RICHEDIT to gain cheaper
+access to Courier font and much larger files. 2.0+ was then worked down from
+995 to 967 bytes.
+
+Versions in 3.0 are a complete rewrite, yielding a functional editor in 908
+bytes (already beating 2.0) and then worked down to 794 bytes.
 
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this (especially for 1.0+), or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell, but I am not going to tell you how. Sorry. You're on your own when messing with antivirus.
 
