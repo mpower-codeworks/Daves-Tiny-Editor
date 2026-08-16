@@ -108,8 +108,11 @@ change and removed on save.
 
 ## Source Code History
 
-In the DTE folder (I forgot to name it "src") enter the folder 3_0 for
-the complete walk-up from a blank file to version 3.4.1.
+In the
+[DTE](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE)
+folder (I forgot to name it "src") enter the folder
+[3_0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/3_0)
+for the complete walk-up from a blank file to version 3.4.1.
 
 <table border="0">
   <tr>
@@ -140,7 +143,11 @@ dialog boxes and prompts. The file search by highlighted text was born,
 and the rather unorthodox X Bang "throw away changes" ability was added.
 It was now possible to bring back the "disable X if unsaved file"
 previously rejected experiment from many versions ago. We now have cheap
-file protection from accidental program closings.
+file protection from accidental program closings. The
+F9 Quick Save can be found in version 3.3.7
+[dte30_037_F9_SAVE.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_037_F9_SAVE.asm)
+and the X Bang Quit override is in
+[dte30_038_X_BANG.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_038_X_BANG.asm).
 
 Printing took forever to figure out. It needed to be extremely simple,
 or discarded as an idea. I remembered that I had seen Microsoft Office
