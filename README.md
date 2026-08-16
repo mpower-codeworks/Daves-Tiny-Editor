@@ -50,6 +50,8 @@ want.
 
 ### Saving a file:
 
+<img src="images/save.jpg" align="left" alt="Save" width="20%">
+<br><br><br><br>
 Press F9 or click the System Menu->Save.
 There is no "Save-As".
 
