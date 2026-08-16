@@ -1,5 +1,5 @@
-# Dave's Tiny Editor (DTE) v3.3.1
-### A Windows Text Editor in 990 Bytes. File Search, Print, Create New, More...<br>
+# Dave's Tiny Editor (DTE) v3.4.1
+### A Windows Text Editor in 990 Bytes. File Search, Print, Create New...<br>
 <table border="0">
   <tr>
     <td>
@@ -104,6 +104,21 @@ change and removed on save.
 
 In the DTE folder (I forgot to name it "src") enter the folder 3_0 for
 the complete walk-up from a blank file to version 3.4.1.
+
+<table border="0">
+  <tr>
+    <td>
+      <img src="images/filelist.jpg"
+           alt="File List"
+           width="200">
+    </td>
+    <td rowspan="2">
+      <img src="images/stats.jpg"
+           alt="File Stats"
+           width="250">
+    </td>
+  </tr>
+</table>
 
 ## The New Features
 
