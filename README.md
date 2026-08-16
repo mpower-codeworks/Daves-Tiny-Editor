@@ -62,6 +62,8 @@ DTE now has unsaved-file protection. If the file is unsaved
 the System Menu "Close" (or Alt-F4) do nothing. They are only
 enabled if a file is unchanged since last save.
 
+<img src="images/save.jpg" align="left" alt="Save" width="20%">
+<br><br><br><br>
 X! (X bang) in the system menu overrides the unsaved
 protection and allows the user to "throw away changes".
 
