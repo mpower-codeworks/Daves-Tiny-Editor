@@ -131,7 +131,8 @@ the complete walk-up from a blank file to version 3.4.1.
 The New File creation solution literally came to me in a dream. It just
 appeared, and it worked. It's a bit unusual to start with a pre-named
 blank file, but it works great and only cost 4 bytes. You will see that
-in version 3.3.2 (file dte30_032.asm).
+in version 3.3.2
+[file dte30_032.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_032_DEFAULT_S.asm).
 
 With new-found confidence from a dream-state I started to think about
 what other much-needed features could be added without the machinery of
@@ -154,9 +155,12 @@ I'll stick a PDF printed from DTE in the repo because hey, DTE can do that now.
 
 ## Crinkler is Not Bolted-On at the End
 
-Well it was, originally. Allow me explain. Version 1.0 of DTE is experimental.
-Crinkler in that version really was just tacked on. Nothing was adjusted and
-Version 2.0 with the RICHEDIT control was under development anyway. In version
+Well it was, originally. Allow me explain.
+[Version 1.0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/1_0)
+of DTE is experimental. Crinkler in that version really was just tacked on. Nothing was
+adjusted and
+[Version 2.0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/2_0_BACKUPS)
+with the RICHEDIT control was under development anyway. In version
 2.0 Crinker was adjusted slightly to work better with A/V and some memory
 refinements were configured. Mostly though, the result was the result.
 
