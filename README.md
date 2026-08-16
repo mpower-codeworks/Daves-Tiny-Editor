@@ -149,7 +149,8 @@ and many failed attempts a solution was found: Let Notepad do it. Literally
 just call notepad /p "C:\whatever\file.txt". To ensure that Notepad doesn't
 print an old version of the file, F12 (print) is disabled unless the file
 has been saved. You can't choose a printer from DTE. The default printer is
-always used.
+always used. You can find the Printing addition in
+[dte30_039_F12_WINEXEC_PRINT.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_039_F12_WINEXEC_PRINT.asm).
 
 I'll stick a PDF printed from DTE in the repo because hey, DTE can do that now.
 
