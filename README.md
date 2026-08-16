@@ -146,6 +146,13 @@ always used.
 
 I'll stick a PDF printed from DTE in the repo because hey, DTE can do that now.
 
+## Crinkler is Not Bolted-On at the End
+
+Well it was, originally. Allow me explain. Over many
+size-coding projects like [Sub-K](https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server)
+and [E](https://github.com/mpower-codeworks/E) I have found that
+the most byte-savings routinely come from the linker. 
+
 ## More About DTE
 
 (Old) New! June 2026: DTE (2.0) has in collaboration with Dave Plummer been
