@@ -148,10 +148,17 @@ I'll stick a PDF printed from DTE in the repo because hey, DTE can do that now.
 
 ## Crinkler is Not Bolted-On at the End
 
-Well it was, originally. Allow me explain. Over many
-size-coding projects like [Sub-K](https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server)
-and [E](https://github.com/mpower-codeworks/E) I have found that
-the most byte-savings routinely come from the linker. 
+Well it was, originally. Allow me explain. Vertion 1.0 of DTE is experimantal.
+Crinkler in that version really was just tacked on. Nothing was adjusted and
+Version 2.0 with the RICHEDIT control was under development anyway. In version
+2.0 Crinker was adjust slightly to works better with A/V and some memory
+refinements were configured. Mostly though, the result was the result.
+
+Version 3.0 was written with Crinker in mind every step of the way. Many groups
+of instructions were rearranged several times testing how Crinker responded.
+The massive drops in exe size from 908 bytes to 794 bytes was achieved this
+way. Crinkler is not required for DTE 3.0 to build, but DTE 3.0 is really meant
+to use it.
 
 ## More About DTE
 
