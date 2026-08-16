@@ -33,7 +33,7 @@ category (990 bytes), it now has the following capabilities added:
 - quick-save with F9
 - GUI "X" icon disabled on unsaved file
 - X! added to system menu "throw out changes"
-- F12 send file to the active printer
+- F12 sends the file to the active printer
 
 ## How DTE Works:
 
