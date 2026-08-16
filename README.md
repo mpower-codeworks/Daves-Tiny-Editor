@@ -152,7 +152,9 @@ has been saved. You can't choose a printer from DTE. The default printer is
 always used. You can find the Printing addition in version 3.3.9
 [dte30_039_F12_WINEXEC_PRINT.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_039_F12_WINEXEC_PRINT.asm).
 
-I'll stick a PDF printed from DTE in the repo because hey, DTE can do that now.
+I'll stick a
+[PDF printed from DTE](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
+in the repo because hey, DTE can do that now.
 
 ## Crinkler is Not Bolted-On at the End
 
