@@ -75,8 +75,9 @@ of file both silently wrap to the other end.
 F12 immediately prints to the active (default) printer. If the
 active printer is PDF, a dialog will open to choose a file name
 to save as. This is a trick. DTE is actually calling Notepad
-with the /P flag. Windows does all the work, and the user never
-actually sees Notepad.
+with the /p flag. Windows does all the work, and the user never
+actually sees Notepad. Note: F12 is disabled unless the file
+has been saved.
 
 ## General Information
 
@@ -92,11 +93,12 @@ includes, file I/O via RICHEDIT20W, and by special appearance:
 There is no flag to set, a * is simply appended to the title on file
 change and removed on save.
 
-Version 3.0 is the main distribution. 2.0 is a more standard,
-optimized tiny exe. 1.0 is limited by EDIT, and more experimental.
+## Source Code History
 
 In the DTE folder (I forgot to name it "SRC") enter the folder 3_0 for
 the complete walk-up from a blank file to version 3.4.1.
+
+## The New Features
 
 The new file creation solution literally came to me in a dream. It just
 appeared, and it worked. It's a bit unusual to start with a pre-named
@@ -108,9 +110,21 @@ what other much-needed features could be added without the machinery of
 dialog boxes and prompts. The file search by highlighted text was born,
 and the rather unorthodox X Bang "throw away changes" ability was added.
 It was now possible to bring back the "disable X if unsaved file"
-previously rejected experiment from many version ago. We now have cheap
+previously rejected experiment from many versions ago. We now have cheap
 file protection from accidental program closings.
 
+Printing took forever to figure out. It needed to be extremely simple,
+or discarded as an idea. I remembered that I had seen Microsoft Office
+allow right-click on a file and choosing Print. After much thrashing about
+and many failed attempts a solution was found: Let Notepad do it. Literally
+just call notepad /p "C:\whatever\file.txt". To ensure that Notepad doesn't
+print an old version of the file, F12 (print) is disabled unless the file
+has been saved. You can't choose a printer from DTE. The default printer is
+always used.
+
+I'll stick a PDF printed from DTE in the repo because hey, DTE can do that now.
+
+## More About DTE
 
 (Old) New! June 2026: DTE (2.0) has in collaboration with Dave Plummer been
 expanded into TinyRetroPad, a full-featured Notepad work-alike editor
@@ -127,29 +141,19 @@ DTE 3.0 is a complete rewrite. All versions use [Crinkler](https://github.com/ru
 at build time.
 
 DTE is basically a wrapper around the RICHEDIT20W control from the WinAPI.
+Version 3.0 is the main distribution. 2.0 is a more standard,
+optimized tiny exe. 1.0 is limited by EDIT, and more experimental.
 
-Versions in 1.0 use the EDIT control with Crinkler cranked and were built-up
+Version 1.0 uses the EDIT control with Crinkler cranked and were built-up
 from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. NOTE:
 This has been stabilized at 926 bytes with no A/V issues.
 
-Versions in 2.0 have Crinkler backed-off a bit and use RICHEDIT to gain cheaper
+Version 2.0 has Crinkler backed-off a bit and use RICHEDIT to gain cheaper
 access to Courier font and much larger files. 2.0 was then worked down from
 995 to 967 bytes.
 
 Versions in 3.0 are a complete rewrite, yielding a functional editor in 908
-bytes (already beating 2.0) and then worked down to 794 bytes.
-
-### A Very Special Note About File I/O
-
-Version 3.0 intentionally lets a user open DTE without a file. There is currently
-no way to save that file, but I have some ideas for future revisions. If no file name:
-
-1. Save as the first few chars of the file as a name
-2. Save as a fixed file name such as "d" or "sav"
-3. Or just block opening if no file like 1.0 and 2.0
-
-I will have to spend some time to figure out how to handle it. I'd really like
-to keep 3.0 under 800 bytes. There's just something about "being in the sevens."
+bytes (already beating 2.0) and then worked down to 794 bytes. 
 
 ## Contents: <br>
 | Folder | Description |
