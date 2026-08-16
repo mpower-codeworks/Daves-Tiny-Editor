@@ -157,7 +157,7 @@ I'll stick a PDF printed from DTE in the repo because hey, DTE can do that now.
 Well it was, originally. Allow me explain. Version 1.0 of DTE is experimantal.
 Crinkler in that version really was just tacked on. Nothing was adjusted and
 Version 2.0 with the RICHEDIT control was under development anyway. In version
-2.0 Crinker was adjust slightly to work better with A/V and some memory
+2.0 Crinker was adjusted slightly to work better with A/V and some memory
 refinements were configured. Mostly though, the result was the result.
 
 Version 3.0 was written with Crinker in mind every step of the way. Many groups
