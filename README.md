@@ -50,8 +50,8 @@ want.
 
 ### Saving a file:
 
-Press F9 or click system menu->Save.
-There is no "save-as".
+Press F9 or click the System Menu->Save.
+There is no "Save-As".
 
 ### Closing DTE
 
