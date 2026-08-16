@@ -35,26 +35,26 @@ category (990 bytes), it now has the following capabilities added:
 - X! added to system menu "throw out changes"
 - F12 send file to the active printer
 
-How DTE Works:
+## How DTE Works:
 
 ### Opening an existing file:
------------------------------
+
 Drag and drop it onto DTE.
 
 ### Creating a new file:
---------------------
+
 Double-click DTE to run it. A new file "f" will be
 automatically created. If f already exists, then DTE
 simply opens that. Edit the new file and Save. Quit
 DTE and rename f to whatever you want.
 
 ### Saving a file:
---------------
+
 Press F9 or click system menu->Save.
 There is no "save-as".
 
 ### Closing DTE
------------
+
 DTE now has unsaved-file protection. If the file is unsaved
 (* appended to the name in the title bar), The GUI "X" and
 the system menu "Close" or Alt-F4 do nothing. They are only
@@ -64,20 +64,25 @@ X! (X bang) in the system menu overrides the unsaved
 protection and allows the user to "throw away changes".
 
 ### Searching the file
-------------------
+
 Highlight any text in the file and press F3 to search forwards
 or F2 to search backwards. DTE will highlight each next found
 instance for every F2 or F3 keypress. End of file and beginning
 of file both silently wrap to the other end.
 
 ### Printing a file
----------------
+
 F12 immediately prints to the active (default) printer. If the
 active printer is PDF, a dialog will open to choose a file name
 to save as. This is a trick. DTE is actually calling Notepad
 with the /P flag. Windows does all the work, and the user never
 actually sees Notepad.
 
+## General Information
+
+DTE 3.0 is a complete rewrite from a blank file up through to the
+full-featured editor presented here with version 3.4.1. It's
+features include all of the above-listed plus: 
 
 Fewer imports, persistent file handle, static class window, no
 includes, file I/O via RICHEDIT20W, and by special appearance:
@@ -86,8 +91,6 @@ includes, file I/O via RICHEDIT20W, and by special appearance:
 
 There is no flag to set, a * is simply appended to the title on file
 change and removed on save.
-
-To use DTE, drag and drop a file onto dte.exe.
 
 Version 3.0 is the main distribution. 2.0 is a more standard,
 optimized tiny exe. 1.0 is limited by EDIT, and more experimental.
