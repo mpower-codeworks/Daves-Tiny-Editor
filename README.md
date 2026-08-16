@@ -95,6 +95,23 @@ change and removed on save.
 Version 3.0 is the main distribution. 2.0 is a more standard,
 optimized tiny exe. 1.0 is limited by EDIT, and more experimental.
 
+In the DTE folder (I forgot to name it "SRC") enter the folder 3_0 for
+the complete walk-up from a blank file to version 3.4.1.
+
+The new file creation solution literally came to me in a dream. It just
+appeared, and it worked. It's a bit unusual to start with a pre-named
+blank file, but it works great and only cost 4 bytes. You will see that
+in version 3.3.2 (file dte30_032.asm).
+
+With new-found confidence from a dream-state I started to think about
+what other much-needed features could be added without the machinery of
+dialog boxes and prompts. The file search by highlighted text was born,
+and the rather unorthodox X Bang "throw away changes" ability was added.
+It was now possible to bring back the "disable X if unsaved file"
+previously rejected experiment from many version ago. We now have cheap
+file protection from accidental program closings.
+
+
 (Old) New! June 2026: DTE (2.0) has in collaboration with Dave Plummer been
 expanded into TinyRetroPad, a full-featured Notepad work-alike editor
 in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad)
