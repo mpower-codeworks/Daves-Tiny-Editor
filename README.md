@@ -27,7 +27,7 @@
 DTE has officially entered new territory. Still sitting in the sub-1kb
 category (990 bytes), it now has the following capabilities added:
 
-- new file creation from the GUI (default file named "f")
+- new file creation from the GUI (default file named `"f"`)
 - highlight any text and search with `F2` and `F3`
 - search wraps after beginning/end of file
 - quick-save with `F9`
@@ -52,7 +52,7 @@ Drag and drop it onto DTE.
 ### Creating a new file:
 
 Double-click DTE to run it. A new file `"f"` will be automatically
-created. If f already exists, then DTE simply opens that. Edit
+created. If `f` already exists, then DTE simply opens that. Edit
 the new file and Save. Quit DTE and rename `f` to whatever you
 want.
 
@@ -60,8 +60,9 @@ want.
 
 <img src="images/save.jpg" align="left" alt="Save" width="20%">
 <br><br><br><br>
-Press F9 or click the System Menu->Save.
-There is no "Save-As".
+
+Press `F9` or click the System Menu->Save.
+There is no `"Save-As"`.
 
 ### Closing DTE
 
