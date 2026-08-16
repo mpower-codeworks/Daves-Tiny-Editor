@@ -72,7 +72,7 @@ of file both silently wrap to the other end.
 
 ### Printing a file
 
-<img src="images/printing.jpg" align="left" alt="System Menu"> F12
+<img src="images/printing.jpg" align="left" alt="Printing" width="20%"> F12
 immediately prints to the active (default) printer. If the
 active printer is PDF, a dialog will open to choose a file name
 to save as. This is a trick. DTE is actually calling Notepad
