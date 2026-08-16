@@ -76,9 +76,9 @@ of file both silently wrap to the other end.
 immediately prints to the active (default) printer. If the
 active printer is PDF, a dialog will open to choose a file name
 to save as. This is a trick. DTE is actually calling Notepad
-with the /p flag. Windows does all the work, and the user never
-actually sees Notepad. Note: F12 is disabled unless the file
-has been saved.
+with the /p flag. The user only briefly sees the Notepad "Now printing"
+dialog. The Notepad editor never appears. Note: F12 is disabled unless
+the file has been saved.
 
 ## General Information
 
