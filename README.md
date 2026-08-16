@@ -132,7 +132,7 @@ The New File creation solution literally came to me in a dream. It just
 appeared, and it worked. It's a bit unusual to start with a pre-named
 blank file, but it works great and only cost 4 bytes. You will see that
 in version 3.3.2
-[file dte30_032.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_032_DEFAULT_S.asm).
+[dte30_032.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_032_DEFAULT_S.asm).
 
 With new-found confidence from a dream-state I started to think about
 what other much-needed features could be added without the machinery of
