@@ -67,20 +67,21 @@ There is no `"Save-As"`.
 ### Closing DTE
 
 DTE now has unsaved-file protection. If the file is unsaved
-(* appended to the name in the title bar), The GUI "X" and
-the System Menu "Close" (or Alt-F4) do nothing. They are only
+(* appended to the name in the title bar), The `GUI "X"` and
+the `System Menu->Close` (or `Alt-F4`) do nothing. They are only
 enabled if a file is unchanged since last save.
 
 <img src="images/save.jpg" align="left" alt="Save" width="20%">
 <br><br><br><br>
-X! (X bang) in the system menu overrides the unsaved
-protection and allows the user to "throw away changes".
+
+`X!` (X bang) in the system menu overrides the unsaved
+protection and allows the user to `"throw away changes"`.
 
 ### Searching the file
 
 Highlight any text in the file and press F3 to search forwards
 or F2 to search backwards. DTE will highlight each next found
-instance for every F2 or F3 keypress. End of file and beginning
+instance for every `F2` or `F3` keypress. End of file and beginning
 of file both silently wrap to the other end.
 
 ### Printing a file
@@ -89,14 +90,14 @@ of file both silently wrap to the other end.
 immediately prints to the active (default) printer. If the
 active printer is PDF, a dialog will open to choose a file name
 to save as. This is a trick. DTE is actually calling Notepad
-with the `/p` flag. The user only briefly sees the Notepad "Now printing"
-dialog. The Notepad editor never appears. Note: F12 is disabled unless
+with the `/p` flag. The user only briefly sees the `Notepad "Now printing"`
+dialog. The Notepad editor never appears. Note: `F12` is disabled unless
 the file has been saved.
 
 ## General Information
 
 DTE 3.0 is a complete rewrite from a blank file up through to the
-full-featured editor presented here with version 3.4.1. It's
+full-featured editor presented here with version `3.4.1`. It's
 features include all of the above-listed plus: 
 
 Fewer imports, persistent file handle, static class window, no
@@ -106,7 +107,7 @@ includes, file I/O via RICHEDIT20W, and by special appearance:
 
 <img src="images/dfile.jpg" align="left" alt="DFile">
 <br><br>
-There is no flag to set, a * is simply appended to the title on file
+There is no flag to set, a `*` is simply appended to the title on file
 change and removed on save.
 
 ## Source Code History
@@ -115,7 +116,7 @@ In the
 [DTE](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE)
 folder (I forgot to name it "src") enter the folder
 [3_0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/3_0)
-for the complete walk-up from a blank file to version 3.4.1.
+for the complete walk-up from a blank file to version `3.4.1`.
 
 <table border="0">
   <tr>
