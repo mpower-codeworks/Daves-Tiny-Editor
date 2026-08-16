@@ -132,7 +132,7 @@ in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/Tin
 and a video about it [here](https://www.youtube.com/watch?v=OG91c7xsNMc).
 
 <img src="images/sve_exmpl.jpg" align="left" alt="System Menu"> You can find the
-Save button in the window's system menu.
+Save and X Bang buttons in the window's system menu.
 
 Compiles with: MASM and Crinkler.
 
