@@ -95,6 +95,8 @@ includes, file I/O via RICHEDIT20W, and by special appearance:
 
 ### A fake file dirty marker!
 
+<img src="images/save.jpg" align="left" alt="Save">
+<br><br><br>
 There is no flag to set, a * is simply appended to the title on file
 change and removed on save.
 
