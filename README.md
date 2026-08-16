@@ -95,7 +95,7 @@ change and removed on save.
 
 ## Source Code History
 
-In the DTE folder (I forgot to name it "SRC") enter the folder 3_0 for
+In the DTE folder (I forgot to name it "src") enter the folder 3_0 for
 the complete walk-up from a blank file to version 3.4.1.
 
 ## The New Features
