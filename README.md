@@ -174,15 +174,19 @@ Version 2.0 has Crinkler backed-off a bit and use RICHEDIT to gain cheaper
 access to Courier font and much larger files. 2.0 was then worked down from
 995 to 967 bytes.
 
-Versions in 3.0 are a complete rewrite, yielding a functional editor in 908
-bytes (already beating 2.0) and then worked down to 794 bytes. 
+Version 3.0 is a complete rewrite. A map is included showing the varying exe
+sizes 
+
+## Crinkler is Not Bolted-On at the End
+
+
 
 ## Contents: <br>
 | Folder | Description |
 |--------|-------------|
 | `1_0` | Version 1.0 non-mono font 926 bytes build with full history|
 | `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release|
-| `3_0` | Version 3.0 complete rewrite, 794 bytes build from blank to release|
+| `3_0` | Version 3.0 complete rewrite, 990 bytes build from blank to release|
 
 | File | Description |
 |------|-------------|
