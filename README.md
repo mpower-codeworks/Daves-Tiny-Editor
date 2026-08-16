@@ -57,7 +57,7 @@ There is no "Save-As".
 
 DTE now has unsaved-file protection. If the file is unsaved
 (* appended to the name in the title bar), The GUI "X" and
-the system menu "Close" or Alt-F4 do nothing. They are only
+the System Menu "Close" (or Alt-F4) do nothing. They are only
 enabled if a file is unchanged since last save.
 
 X! (X bang) in the system menu overrides the unsaved
@@ -72,7 +72,8 @@ of file both silently wrap to the other end.
 
 ### Printing a file
 
-F12 immediately prints to the active (default) printer. If the
+<img src="images/printing.jpg" align="left" alt="System Menu"> F12
+immediately prints to the active (default) printer. If the
 active printer is PDF, a dialog will open to choose a file name
 to save as. This is a trick. DTE is actually calling Notepad
 with the /p flag. Windows does all the work, and the user never
