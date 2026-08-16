@@ -177,10 +177,6 @@ access to Courier font and much larger files. 2.0 was then worked down from
 Version 3.0 is a complete rewrite. A map is included showing the varying exe
 sizes 
 
-## Crinkler is Not Bolted-On at the End
-
-
-
 ## Contents: <br>
 | Folder | Description |
 |--------|-------------|
