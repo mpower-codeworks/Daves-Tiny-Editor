@@ -44,8 +44,9 @@ Drag and drop it onto DTE.
 ### Creating a new file:
 
 Double-click DTE to run it. A new file "f" will be automatically<br>
-created. If f already exists, then DTE simply opens that. Edit the<br>
-new file and Save. Quit DTE and rename f to whatever you want.
+created. If f already exists, then DTE simply opens that. Edit<br>
+the new file and Save. Quit DTE and rename f to whatever you<br>
+want.
 
 ### Saving a file:
 
