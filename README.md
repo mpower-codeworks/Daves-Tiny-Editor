@@ -149,7 +149,7 @@ and many failed attempts a solution was found: Let Notepad do it. Literally
 just call notepad /p "C:\whatever\file.txt". To ensure that Notepad doesn't
 print an old version of the file, F12 (print) is disabled unless the file
 has been saved. You can't choose a printer from DTE. The default printer is
-always used. You can find the Printing addition in versiion 3.32
+always used. You can find the Printing addition in version 3.3.9
 [dte30_039_F12_WINEXEC_PRINT.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_039_F12_WINEXEC_PRINT.asm).
 
 I'll stick a PDF printed from DTE in the repo because hey, DTE can do that now.
@@ -165,7 +165,8 @@ with the RICHEDIT control was under development anyway. In version
 2.0 Crinker was adjusted slightly to work better with A/V and some memory
 refinements were configured. Mostly though, the result was the result.
 
-Version 3.0 was written with Crinker in mind every step of the way. Many groups
+[Version 3.0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/3_0)
+was written with Crinker in mind every step of the way. Many groups
 of instructions were rearranged several times testing how Crinker responded.
 The massive drops in exe size from 908 bytes to 794 bytes were achieved this
 way. Crinkler is not required for DTE 3.0 to build, but DTE 3.0 is really meant
