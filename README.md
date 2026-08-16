@@ -35,6 +35,11 @@ category (990 bytes), it now has the following capabilities added:
 - X! added to system menu "throw out changes"
 - F12 sends the file to the active printer
 
+If you are interested in more projects that try to make basic
+utilities in very small packages, you may like to check out
+[Sub-K](https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server)
+a very small web server and [E](https://github.com/mpower-codeworks/E) a very small telnet server.
+
 ## How DTE Works:
 
 ### Opening an existing file:
