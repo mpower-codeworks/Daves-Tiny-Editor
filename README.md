@@ -41,7 +41,7 @@ utilities in very small packages, check out
 a very small web server and [E](https://github.com/mpower-codeworks/E)
 a very small telnet server.
 
-## How DTE Works:
+## How to Use DTE:
 
 ### Opening an existing file:
 
