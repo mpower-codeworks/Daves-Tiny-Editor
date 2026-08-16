@@ -41,8 +41,8 @@ utilities in very small packages, check out
 [Sub-K](https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server)
 a very small web server and [E](https://github.com/mpower-codeworks/E)
 a very small telnet server.
----
 
+---
 ## How to Use DTE:
 
 ### Opening an existing file:
