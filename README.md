@@ -24,7 +24,7 @@
 
 ## We're Not in Kansas Any More
 
-DTE has officially entered new territory. Still sitting in the sub-1kb<br>
+DTE has officially entered new territory. Still sitting in the sub-1kb
 category (990 bytes), it now has the following capabilities added:
 
 - new file creation from the GUI (default file named "f")
@@ -43,24 +43,24 @@ Drag and drop it onto DTE.
 
 ### Creating a new file:
 
-Double-click DTE to run it. A new file "f" will be automatically<br>
-created. If f already exists, then DTE simply opens that. Edit<br>
-the new file and Save. Quit DTE and rename f to whatever you<br>
+Double-click DTE to run it. A new file "f" will be automatically
+created. If f already exists, then DTE simply opens that. Edit
+the new file and Save. Quit DTE and rename f to whatever you
 want.
 
 ### Saving a file:
 
-Press F9 or click system menu->Save.<br>
+Press F9 or click system menu->Save.
 There is no "save-as".
 
 ### Closing DTE
 
-DTE now has unsaved-file protection. If the file is unsaved<br>
-(* appended to the name in the title bar), The GUI "X" and<br>
-the system menu "Close" or Alt-F4 do nothing. They are only<br>
+DTE now has unsaved-file protection. If the file is unsaved
+(* appended to the name in the title bar), The GUI "X" and
+the system menu "Close" or Alt-F4 do nothing. They are only
 enabled if a file is unchanged since last save.
 
-X! (X bang) in the system menu overrides the unsaved<br>
+X! (X bang) in the system menu overrides the unsaved
 protection and allows the user to "throw away changes".
 
 ### Searching the file
