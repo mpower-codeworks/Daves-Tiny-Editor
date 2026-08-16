@@ -28,12 +28,12 @@ DTE has officially entered new territory. Still sitting in the sub-1kb
 category (990 bytes), it now has the following capabilities added:
 
 - new file creation from the GUI (default file named "f")
-- highlight any text and search with F2 and F3
+- highlight any text and search with `F2` and `F3`
 - search wraps after beginning/end of file
-- quick-save with F9
-- GUI "X" icon disabled on unsaved file
-- X! added to system menu "throw out changes"
-- F12 sends the file to the active printer
+- quick-save with `F9`
+- GUI `"X"` icon disabled on unsaved file
+- `X!` added to system menu "throw out changes"
+- `F12` sends the file to the active printer
 
 ---
 If you are interested in more projects that try to make basic
@@ -51,9 +51,9 @@ Drag and drop it onto DTE.
 
 ### Creating a new file:
 
-Double-click DTE to run it. A new file "f" will be automatically
+Double-click DTE to run it. A new file `"f"` will be automatically
 created. If f already exists, then DTE simply opens that. Edit
-the new file and Save. Quit DTE and rename f to whatever you
+the new file and Save. Quit DTE and rename `f` to whatever you
 want.
 
 ### Saving a file:
@@ -84,11 +84,11 @@ of file both silently wrap to the other end.
 
 ### Printing a file
 
-<img src="images/printing.jpg" align="left" alt="Printing" width="20%"> F12
+<img src="images/printing.jpg" align="left" alt="Printing" width="20%"> `F12`
 immediately prints to the active (default) printer. If the
 active printer is PDF, a dialog will open to choose a file name
 to save as. This is a trick. DTE is actually calling Notepad
-with the /p flag. The user only briefly sees the Notepad "Now printing"
+with the `/p` flag. The user only briefly sees the Notepad "Now printing"
 dialog. The Notepad editor never appears. Note: F12 is disabled unless
 the file has been saved.
 
@@ -168,10 +168,10 @@ in the repo because hey, DTE can do that now.
 ## Crinkler is Not Bolted-On at the End
 
 Well it was, originally. Allow me explain.
-[Version 1.0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/1_0)
+`[Version 1.0]`(https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/1_0)
 of DTE is experimental. Crinkler in that version really was just tacked on. Nothing was
 adjusted and
-[Version 2.0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/2_0_BACKUPS)
+`[Version 2.0]`(https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/2_0_BACKUPS)
 with the RICHEDIT control was under development anyway. In version
 2.0 Crinker was adjusted slightly to work better with A/V and some memory
 refinements were configured. Mostly though, the result was the result.
