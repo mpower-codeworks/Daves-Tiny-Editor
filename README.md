@@ -66,10 +66,10 @@ There is no `"Save-As"`.
 
 ### Closing DTE
 
-DTE now has unsaved-file protection. If the file is unsaved
-(`*` appended to the name in the title bar), The `GUI "X"` and
-the `System Menu->Close` (or `Alt-F4`) do nothing. They are only
-enabled if a file is unchanged since last save.
+DTE now has unsaved-file protection. If the file is unsaved, 
+the `GUI "X"` and the `System Menu->Close` (or `Alt-F4`) do
+nothing. They are only enabled if a file is unchanged since
+last save.
 
 <img src="images/save.jpg" align="left" alt="Save" width="20%">
 <br><br><br><br>
