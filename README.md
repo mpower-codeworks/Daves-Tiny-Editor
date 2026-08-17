@@ -150,7 +150,7 @@ previously rejected experiment from many versions ago. We now have cheap
 file protection from accidental program closings. The
 F9 Quick Save can be found in version `3.3.7`
 [dte30_037_F9_SAVE.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_037_F9_SAVE.asm)
-and the X Bang Quit override is in
+and the X Bang Quit override is in `3.3.8`
 [dte30_038_X_BANG.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_038_X_BANG.asm).
 
 Printing took forever to figure out. It needed to be extremely simple,
