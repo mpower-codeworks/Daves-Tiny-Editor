@@ -160,7 +160,7 @@ and many failed attempts a solution was found: Let Notepad do it. Literally
 just call notepad /p "C:\whatever\file.txt". To ensure that Notepad doesn't
 print an old version of the file, F12 (print) is disabled unless the file
 has been saved. You can't choose a printer from DTE. The default printer is
-always used. You can find the Printing addition in version 3.3.9
+always used. You can find the Printing addition in version `3.3.9`
 [dte30_039_F12_WINEXEC_PRINT.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_039_F12_WINEXEC_PRINT.asm).
 
 I'll stick a
@@ -187,7 +187,7 @@ to use it.
 
 ## More About DTE
 
-(Old) New! June 2026: DTE (2.0) has in collaboration with Dave Plummer been
+(Old) New! June 2026: DTE `2.0` has in collaboration with Dave Plummer been
 expanded into TinyRetroPad, a full-featured Notepad work-alike editor
 in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad)
 and a video about it [here](https://www.youtube.com/watch?v=OG91c7xsNMc).
@@ -197,23 +197,23 @@ Save and X Bang buttons in the window's system menu.
 
 Compiles with: MASM and Crinkler.
 
-DTE 1.0 and 2.0 are extensions of `tiny.asm` HelloAssembly by [Dave Plummer](https://github.com/davepl).
-DTE 3.0 is a complete rewrite. All versions use [Crinkler](https://github.com/runestubbe/Crinkler) compression
+DTE `1.0` and `2.0` are extensions of `tiny.asm` HelloAssembly by [Dave Plummer](https://github.com/davepl).
+DTE `3.0` is a complete rewrite. All versions use [Crinkler](https://github.com/runestubbe/Crinkler) compression
 at build time.
 
 DTE is basically a wrapper around the RICHEDIT20W control from the WinAPI.
-Version 3.0 is the main distribution. 2.0 is a more standard,
+Version `3.0` is the main distribution. 2.0 is a more standard,
 optimized tiny exe. 1.0 is limited by EDIT, and more experimental.
 
-Version 1.0 uses the EDIT control with Crinkler cranked and were built-up
+Version `1.0` uses the `EDIT` control with Crinkler cranked and were built-up
 from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. NOTE:
 This has been stabilized at 926 bytes with no A/V issues.
 
-Version 2.0 has Crinkler backed-off a bit and use RICHEDIT to gain cheaper
+Version `2.0` has Crinkler backed-off a bit and use RICHEDIT to gain cheaper
 access to Courier font and much larger files. 2.0 was then worked down from
 995 to 967 bytes.
 
-Version 3.0 is a complete rewrite. A map is included showing the varying exe
+Version `3.0` is a complete rewrite. A map is included showing the varying exe
 sizes 
 
 ## Contents: <br>
