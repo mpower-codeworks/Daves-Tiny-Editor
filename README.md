@@ -1,5 +1,5 @@
 # Dave's Tiny Editor (DTE) v3.4.1
-### A Windows Text Editor in 990 Bytes. File Search, Print, Create New...<br>
+### A Windows Text Editor in 1024 Bytes. Font Selection, File Search, Replace, Print, Create New...<br>
 <table border="0">
   <tr>
     <td>
@@ -24,11 +24,62 @@
   </tr>
 </table>
 
+## I Font Believe It!
+
+DTE has been expanded. It now includes font selection and
+startup state windowed/maximized. This is accomplished by
+using a custom setup tool called DTE_SETUP.
+
+<img src="images/dte-font-select.jpg" align="left" width="20%" alt="Font Selection">
+
+DTE_SETUP modifies the DTE executable directly via open
+tails added to DTE's framework.
+
+DTE compiled now sits at 987 bytes, though without any
+font setting. After building DTE, DTE_SETUP needs to be
+run at least once to choose a font, font-size, and startup
+mode.
+
+<img src="images/dte-start-mode.jpg" align="right" width="20%" alt="Start Mode">
+
+DTE_SETUP writes the startup state at byte 996, the font
+name at byte 1000, and the font size at byte 1020,
+expanding the configured executable to 1024 bytes.
+
+Several attempts were made to try and keep font selection
+under 1000 bytes (just because) but all failed. DTE_SETUP
+extends the configured executable to 1024 bytes so there is
+room for the configuration tail.
+
+There was still enough space "back in the nines" to allow
+a custom start-up state to be either windowed or
+maximized. Because of the effects of writing to the exe with
+DTE_SETUP, the final size is 1024 whether we add the
+startup mode or not. Might as well have it then.
+
+The results are in: DTE is now a functioning notepad-like
+editor in 1024 bytes with:
+
+- font selection
+- startup mode selection
+- new file creation ("f" default file)
+- printing
+- file search with wrapping
+- replace text using search and clipboard
+- unsaved file protection
+- save button in the system menu
+- quick save with F9
+- X! (X Bang) throw away changes
+- an unsaved file indicator "*"
+
+Crinkler is now part of the project’s design. Instructions are
+deliberately arranged so repeated structures fold together at
+link time, making compression itself part of the coding process.
+
 ## We're Not in Kansas Any More
 
-DTE has officially entered new territory. Still sitting in the sub-1kb
-category (990 bytes), it now has the following capabilities added:
-
+DTE has officially entered new territory. Now sitting 1024 bytes, it has the following capabilities added:
+- font selection and startup-up via DTE_SETUP
 - new file creation from the GUI (default file named `"f"`)
 - highlight any text and search with `F2` and `F3`
 - search wraps after beginning/end of file
@@ -46,6 +97,8 @@ a very small telnet server.
 
 ---
 ## How to Use DTE:
+
+A printable user manual in PDF is included with this distribution.
 
 ### Opening an existing file:
 
@@ -84,7 +137,19 @@ protection and allows the user to `"throw away changes"`.
 Highlight any text in the file and press F3 to search forwards
 or F2 to search backwards. DTE will highlight each next found
 instance for every `F2` or `F3` keypress. End of file and beginning
-of file both silently wrap to the other end.
+of file both silently wrap to the other end. If can be very helpful
+to place some common search terms at the top of the file
+temporarily.
+
+### One-time Replace (repeatable)
+
+DTE has  no  Replace  dialog,  but  a  quick  one-time
+replace is available. Copy the replacement text to the
+Windows clipboard, highlight the text to find, and use
+`F2` or `F3` to move to the desired instance. Press Ctrl+V
+and the highlighted instance is immediately replaced.
+To repeat, press `Ctrl-Home` to jump to the search term
+at the top of the file and repeat.
 
 ### Printing a file
 
@@ -147,7 +212,7 @@ in version `3.3.2`
 With new-found confidence from a dream-state I started to think about
 what other much-needed features could be added without the machinery of
 dialog boxes and prompts. The file search by highlighted text was born,
-and the rather unorthodox X Bang "throw away changes" ability was added.
+and the rather unorthodox `X!` X Bang "throw away changes" ability was added.
 It was now possible to bring back the "disable X if unsaved file"
 previously rejected experiment from many versions ago. We now have cheap
 file protection from accidental program closings. The
@@ -156,12 +221,35 @@ F9 Quick Save can be found in version `3.3.7`
 and the X Bang Quit override is in `3.3.8`
 [dte30_038_X_BANG.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_038_X_BANG.asm).
 
+Find was intentional; Replace was a discovery. To avoid dialog launching,
+Find simply searches for the currently highlighted text. To search for
+a word or phrase not currently in the document, just put it in the top
+of the file and delete it later. When coding, you could make a little
+search library in comments like:
+
+```
+/*
+mainEntry
+drawTable
+*/
+```
+
+Replace was thought to be impossible without adding machinery until it
+was realized that DTE already had a rudimentary Replace already. Just
+copy the intended replacement text to clipboard, then highlight a search
+term and press `F2` or `F3`. The found term will already automatically be
+highlighted and `Ctrl-V` immediately replaces that text. In order to replace
+next instance, press `Ctrl-Home` to go back to the top and highlight the
+search term again. Press `F2`/`F3` again and repeat. It might seem clunky
+at first glance, but in practice it works pretty decently. There is no
+"Replace All", sorry.
+
 Printing took forever to figure out. It needed to be extremely simple,
 or discarded as an idea. I remembered that I had seen Microsoft Office
 allow right-click on a file and choosing Print. After much thrashing about
 and many failed attempts a solution was found: Let Notepad do it. Literally
-just call notepad /p "C:\whatever\file.txt". To ensure that Notepad doesn't
-print an old version of the file, F12 (print) is disabled unless the file
+just call `notepad /p "C:\whatever\file.txt"`. To ensure that Notepad doesn't
+print an old version of the file, `F12` (print) is disabled unless the file
 has been saved. You can't choose a printer from DTE. The default printer is
 always used. You can find the Printing addition in version `3.3.9`
 [dte30_039_F12_WINEXEC_PRINT.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_039_F12_WINEXEC_PRINT.asm).
@@ -185,7 +273,7 @@ refinements were configured. Mostly though, the result was the result.
 was written with Crinker in mind every step of the way. Many groups
 of instructions were rearranged several times testing how Crinker responded.
 The massive drops in exe size from 908 bytes to 794 bytes were achieved this
-way. Crinkler is not required for DTE 3.0 to build, but DTE 3.0 is really meant
+way. Crinkler is not required for DTE 3.0 to build, but DTE 3.0 really is meant
 to use it.
 
 ## More About DTE
@@ -224,7 +312,7 @@ sizes
 |--------|-------------|
 | `1_0` | Version 1.0 non-mono font 926 bytes build with full history|
 | `2_0_BACKUPS` | Version 2.0 more features, 967 bytes build from RICHEDIT to release|
-| `3_0` | Version 3.0 complete rewrite, 990 bytes build from blank to release|
+| `3_0` | Version 3.0 complete rewrite, 1024 bytes build from blank to release|
 
 | File | Description |
 |------|-------------|
