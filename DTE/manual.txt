@@ -1,0 +1,287 @@
+      
+
+
+
+
+      
+
+
+                      
+
+
+
+
+
+
+
+                        ;;;;;;;;;;;;;;;;;
+                        ;;   DTE  3.0  ;;
+                        ;;;;;;;;;;;;;;;;;
+                        ;;    --*--    ;;
+                        ;; mpower 2026 ;;
+                        ;;;;;;;;;;;;;;;;;
+
+                           User Manual
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; build history with exe size result ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; 000 init and clear thread     - 372 bytes exe
+;; 001 create first API window   - 404 bytes
+;; 002 enable quit               - 434 bytes
+;; 003 enable X to quit          - 445 bytes
+;; 004 enable min and max        - 472 bytes
+;; 005 enable mouse resize       - 459 bytes
+;; 006 true mouse resize         - 451 bytes
+;; 007 start size 800x600        - 455 bytes
+;; 008 add RichEdit20W           - 491 bytes
+;; 009 resize RichEdit20W        - 533 bytes
+;; 010 add keys/mouse handlers   - 536 bytes
+;; 011 add Courier font          - 566 bytes
+;; 012 Courier 14 point          - 568 bytes
+;; 013 fix runaway process       - 575 bytes
+;; 014 enable vertical scroll    - 576 bytes
+;; 015 auto vertical scroll      - 587 bytes
+;; 016 drop file onto EXE        - 709 bytes
+;; 017 leaf filename title       - 725 bytes
+;; 018 dirty title marker        - 791 bytes
+;; 019 system menu save          - 908 bytes
+;; 020 rmv REDIT initial fit     - 901 bytes
+;; 021 merge path loops          - 895 bytes
+;; 022 share title update        - 895 bytes
+;; 023 reorg dispatch and exit   - 880 bytes
+;; 024 dispatch exit reorganize  - 875 bytes
+;; 025 review for leaks, errors  - 875 bytes
+;; 026 fix REDIT capacity        - 881 bytes
+;; 027 direct file streaming     - 838 bytes
+;; 028 minor changes             - 838 bytes
+;; 029 crinkler-aware rewrite    - 806 bytes
+;; 030 fix fdirty on click       - 805 bytes
+;; 031 opt prsr, addr, data      - 794 bytes
+;; 032 add new file ability      - 797 bytes
+;; 033 add search ability        - 859 bytes
+;; 034 add search wrap           - 863 bytes
+;; 035 fixed clean exit (again!) - 864 bytes
+;; 036 fixed client-click crash  - 864 bytes
+;; 037 added F9 save command     - 885 bytes
+;; 038 add dirty file protection - 908 bytes
+;; 039 add print from WINEXEC    - 965 bytes
+;; 040 add reverse search        - 994 bytes
+;; 041 re-org for better cmprss  - 990 bytes
+;; 042 external font patch tail  - 988 bytes
+;; 043 and 044 crinkler fold     - 980 bytes
+;; 045 15-byte font face slot    - discarded
+;; 046 restore 20-byte font      - 980 bytes
+;; 047 window state tail         - 984 bytes
+;; 048 pack state with height    - state failed
+;; 049 startup syscommand tail   - 987 bytes
+
+
+Opening an existing file:
+-------------------------
+Drag and drop it onto DTE.
+
+Creating a new file:
+--------------------
+Double-click DTE to run it.  A new  file  "f" will  be
+automatically created. If f  already exists, then  DTE
+simply opens that.  Edit the new  file and Save.  Quit
+DTE and rename f to whatever you want.
+
+Saving a file:
+--------------
+Press F9 or click the  System Menu->Save. There is  no
+"Save-As".
+
+
+Closing DTE
+-----------
+DTE now has  unsaved-file protection. If  the file  is
+unsaved (* appended to the name in the title bar), the
+GUI "X" and  the System  Menu "Close"  (or Alt-F4)  do
+nothing. They are only enabled if a file is  unchanged
+since last save.
+
+X! (X bang) in the  system menu overrides the  unsaved
+protection and allows the user to "throw away changes".
+
+Searching the file
+------------------
+Highlight any text in the file and press F3 to  search
+forwards or F2 to search backwards. DTE will highlight
+each next found instance for every F2 or F3  keypress.
+End of file and beginning  of file both silently  wrap
+to the other end.
+
+One-time Replace (repeatable)
+-----------------------------
+DTE has  no  Replace  dialog,  but  a  quick  one-time
+replace is available. Copy the replacement text to the
+Windows clipboard, highlight the text to find, and use
+F2 or F3 to move to the desired instance. Press Ctrl+V
+and the highlighted instance  is immediately replaced.
+To repeat, press  Ctrl-Home to jump to the search term
+at the top of the file and highlight the text again.
+
+Printing a file
+---------------
+F12  immediately  prints   to  the  active   (default)
+printer. If the active printer  is PDF, a dialog  will
+open to  choose a  file name  to save  as. This  is  a
+trick. DTE  is actually  calling Notepad  with the  /p
+flag. The  user only  briefly  sees the  Notepad  "Now
+printing" dialog.  The Notepad  editor never  appears.
+Note: F12 is disabled unless the file has been saved.
+
+DTE_SETUP
+---------
+Place DTE_SETUP.exe  beside  dte.exe  and  run  it  to
+change DTE's font  and startup state.  First  choose a
+font. Then choose whether DTE should start Windowed or
+Maximized.
+
+The  selected  settings  are  written  directly   into
+dte.exe. No INI  file or Registry  settings are  used.
+Font names  may contain  up to  19 characters.  Longer
+font names are refused. Running DTE_SETUP expands  the
+configured dte.exe to 1024 bytes.
+
+Word Wrap
+---------
+Word wrap is always on.
+
+Keyboard Navigation
+-------------------
+Arrow keys:           Move cursor in that direction
+Home                  Start of line
+End                   End of line
+Ctrl + Home           Top of file
+Ctrl + End            End of file
+Page Up               Scroll up
+Page Down             Scroll down
+Ctrl + Left           Move to previous word
+Ctrl + Right          Move to next word
+
+
+
+
+
+
+Selection
+---------------
+Shift + Arrow         Extend selection
+Shift + Home          Select to start of line
+Shift + End           Select to end of line
+Ctrl  + Shift + Home  Select to top of file
+Ctrl  + Shift + End   Select to end of file
+Ctrl  + A             Select all
+L/Click & Drag        All of the above
+
+Editing
+-------
+Backspace             Delete character before cursor
+Delete                Delete character at cursor
+Ctrl  + Backspace     Delete previous word
+Ctrl  + Delete        Delete next word
+Enter                 Insert newline
+
+Clipboard:
+----------
+Ctrl  + C             Copy
+Ctrl  + Insert        Copy
+Ctrl  + X             Cut
+Shift + Delete        Cut
+Ctrl  + V             Paste
+Shift + Insert        Paste
+
+Undo / Redo:
+------------
+Ctrl  + Z             undo
+Ctrl  + Y             redo
+
+Right-Click Editor Menu:
+------------------------
+Disabled. Use keyboard commands.
+
+System Menu
+-----------
+Can be accessed by upper left icon or
+by r/click anywhere in the title bar.
+
+DTE Max Editable File Size
+--------------------------
+100 MB files verified as working.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              This user manual, and major portions
+              of DTE itself, were written with DTE.
+
+                            / / / / / / /
+                          / / D T E / /
+                        / / / / / / /
+
+     https://github.com/mpower-codeworks/Daves-Tiny-Editor
