@@ -123,7 +123,7 @@ In the
 [DTE](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE)
 folder (I forgot to name it "src") enter the folder
 [3_0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/3_0)
-for the complete walk-up from a blank file to version `3.4.1`.
+for the complete walk-up from a blank file to version `3.4.9`.
 
 <table border="0">
   <tr>
