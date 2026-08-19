@@ -11,7 +11,7 @@
       <img src="images/DT.jpg"
            alt="D.T. Mascot"
            width="300"><br>
-      "You can fit fourteen hundred<br>
+      "You can fit twelve hundred<br>
       of me on a 5¼″ floppy!"
     </td>
   </tr>
