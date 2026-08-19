@@ -1,4 +1,4 @@
-# Dave's Tiny Editor (DTE) v3.4.1
+# Dave's Tiny Editor (DTE) v3.4.9
 ### A Windows Text Editor in 1024 Bytes. Font Selection, File Search, Replace, Print, Create New...<br>
 <table border="0">
   <tr>
@@ -26,9 +26,9 @@
 
 ## I Font Believe It!
 
-DTE has been expanded. It now includes font selection and
+DTE has been expanded. `Version 3.4.9` now includes font selection and
 startup state windowed/maximized. This is accomplished by
-using a custom setup tool called DTE_SETUP.
+using a custom setup tool called `DTE_SETUP`.
 
 <img src="images/dte-font-select.jpg" align="left" width="20%" alt="Font Selection">
 
@@ -62,15 +62,15 @@ editor in 1024 bytes with:
 
 - font selection
 - startup mode selection
-- new file creation ("f" default file)
+- new file creation (`"f"` default file)
 - printing
 - file search with wrapping
 - replace text using search and clipboard
 - unsaved file protection
 - save button in the system menu
-- quick save with F9
-- X! (X Bang) throw away changes
-- an unsaved file indicator "*"
+- quick save with `F9`
+- `X!` (X Bang) throw away changes
+- an unsaved file indicator `"*"`
 
 Crinkler is now part of the project’s design. Instructions are
 deliberately arranged so repeated structures fold together at
@@ -98,7 +98,8 @@ a very small telnet server.
 ---
 ## How to Use DTE:
 
-A printable user manual in PDF is included with this distribution.
+A printable [user manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
+in PDF is included with this distribution.
 
 ### Opening an existing file:
 
