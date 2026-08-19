@@ -12,7 +12,7 @@
            alt="D.T. Mascot"
            width="300"><br>
       "You can fit fourteen hundred<br>
-      of me on a 5¼ floppy!"
+      of me on a 5¼″ floppy!"
     </td>
   </tr>
   <tr>
@@ -32,17 +32,17 @@ using a custom setup tool called `DTE_SETUP`.
 
 <img src="images/dte-font-select.jpg" align="left" width="20%" alt="Font Selection">
 
-DTE_SETUP modifies the DTE executable directly via open
+`DTE_SETUP` modifies the DTE executable directly via open
 tails added to DTE's framework.
 
 DTE compiled now sits at 987 bytes, though without any
-font setting. After building DTE, DTE_SETUP needs to be
+font setting. After building DTE, `DTE_SETUP` needs to be
 run at least once to choose a font, font-size, and startup
 mode.
 
 <img src="images/dte-start-mode.jpg" align="right" width="20%" alt="Start Mode">
 
-DTE_SETUP writes the startup state at byte 996, the font
+`DTE_SETUP` writes the startup state at byte 996, the font
 name at byte 1000, and the font size at byte 1020,
 expanding the configured executable to 1024 bytes.
 
@@ -96,76 +96,14 @@ a very small web server and [E](https://github.com/mpower-codeworks/E)
 a very small telnet server.
 
 ---
-## How to Use DTE:
 
 A printable [user manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
 in PDF is included with this distribution.
 
-### Opening an existing file:
-
-Drag and drop it onto DTE.
-
-### Creating a new file:
-
-Double-click DTE to run it. A new file `"f"` will be automatically
-created. If `f` already exists, then DTE simply opens that. Edit
-the new file and Save. Quit DTE and rename `f` to whatever you
-want.
-
-### Saving a file:
-
-<img src="images/save.jpg" align="left" alt="Save" width="20%">
-<br><br><br><br>
-
-Press `F9` or click the System Menu->Save.
-There is no `"Save-As"`.
-
-### Closing DTE
-
-DTE now has unsaved-file protection. If the file is unsaved, 
-the `GUI "X"` and the `System Menu->Close` (or `Alt-F4`) do
-nothing. They are only enabled if a file is unchanged since
-last save.
-
-<img src="images/save.jpg" align="left" alt="Save" width="20%">
-<br><br><br><br>
-
-`X!` (X bang) in the system menu overrides the unsaved
-protection and allows the user to `"throw away changes"`.
-
-### Searching the file
-
-Highlight any text in the file and press F3 to search forwards
-or F2 to search backwards. DTE will highlight each next found
-instance for every `F2` or `F3` keypress. End of file and beginning
-of file both silently wrap to the other end. If can be very helpful
-to place some common search terms at the top of the file
-temporarily.
-
-### One-time Replace (repeatable)
-
-DTE has  no  Replace  dialog,  but  a  quick  one-time
-replace is available. Copy the replacement text to the
-Windows clipboard, highlight the text to find, and use
-`F2` or `F3` to move to the desired instance. Press Ctrl+V
-and the highlighted instance is immediately replaced.
-To repeat, press `Ctrl-Home` to jump to the search term
-at the top of the file and repeat.
-
-### Printing a file
-
-<img src="images/printing.jpg" align="left" alt="Printing" width="20%"> `F12`
-immediately prints to the active (default) printer. If the
-active printer is PDF, a dialog will open to choose a file name
-to save as. This is a trick. DTE is actually calling Notepad
-with the `/p` flag. The user only briefly sees the `Notepad "Now printing"`
-dialog. The Notepad editor never appears. Note: `F12` is disabled unless
-the file has been saved.
-
 ## General Information
 
 DTE 3.0 is a complete rewrite from a blank file up through to the
-full-featured editor presented here with version `3.4.1`. It's
+full-featured editor presented here with version `3.4.9`. It's
 features include all of the above-listed plus: 
 
 Fewer imports, persistent file handle, static class window, no
@@ -318,13 +256,79 @@ sizes
 | File | Description |
 |------|-------------|
 | `build.bat` | Builds DTE from command line |
-| `DRAG ME ONTO DTE.txt` | How to use DTE |
+| `manual.pdf` | How to use DTE |
 | `DTE ABOUT.txt` | Explains some design decisions |
-| `dte.asm` | The program. Version 3.3.1 |
+| `dte.asm` | The program. Version `3.4.9` |
 | `LICENSE` | Usage permissions |
 
 ## DTE in use: <br>
 <img src="images/dte-in-action.jpg" alt="DTE in action" width="500">
+
+## How to Use DTE:
+
+A printable [user manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
+in PDF is included with this distribution.
+
+### Opening an existing file:
+
+Drag and drop it onto DTE.
+
+### Creating a new file:
+
+Double-click DTE to run it. A new file `"f"` will be automatically
+created. If `f` already exists, then DTE simply opens that. Edit
+the new file and Save. Quit DTE and rename `f` to whatever you
+want.
+
+### Saving a file:
+
+<img src="images/save.jpg" align="left" alt="Save" width="20%">
+<br><br><br><br>
+
+Press `F9` or click the System Menu->Save.
+There is no `"Save-As"`.
+
+### Closing DTE
+
+DTE now has unsaved-file protection. If the file is unsaved, 
+the `GUI "X"` and the `System Menu->Close` (or `Alt-F4`) do
+nothing. They are only enabled if a file is unchanged since
+last save.
+
+<img src="images/save.jpg" align="left" alt="Save" width="20%">
+<br><br><br><br>
+
+`X!` (X bang) in the system menu overrides the unsaved
+protection and allows the user to `"throw away changes"`.
+
+### Searching the file
+
+Highlight any text in the file and press F3 to search forwards
+or F2 to search backwards. DTE will highlight each next found
+instance for every `F2` or `F3` keypress. End of file and beginning
+of file both silently wrap to the other end. If can be very helpful
+to place some common search terms at the top of the file
+temporarily.
+
+### One-time Replace (repeatable)
+
+DTE has  no  Replace  dialog,  but  a  quick  one-time
+replace is available. Copy the replacement text to the
+Windows clipboard, highlight the text to find, and use
+`F2` or `F3` to move to the desired instance. Press Ctrl+V
+and the highlighted instance is immediately replaced.
+To repeat, press `Ctrl-Home` to jump to the search term
+at the top of the file and repeat.
+
+### Printing a file
+
+<img src="images/printing.jpg" align="left" alt="Printing" width="20%"> `F12`
+immediately prints to the active (default) printer. If the
+active printer is PDF, a dialog will open to choose a file name
+to save as. This is a trick. DTE is actually calling Notepad
+with the `/p` flag. The user only briefly sees the `Notepad "Now printing"`
+dialog. The Notepad editor never appears. Note: `F12` is disabled unless
+the file has been saved.
 
 ### Compiling, and if You're New to Crinkler
 
