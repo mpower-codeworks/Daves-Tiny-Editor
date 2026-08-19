@@ -7,10 +7,12 @@
            alt="DTE executable properties showing 794 bytes"
            width="300">
     </td>
-    <td rowspan="2">
+    <td rowspan="2" align="center">
       <img src="images/DT.jpg"
            alt="D.T. Mascot"
-           width="300">
+           width="300"><br>
+      "You can fit fourteen hundred<br>
+      of me on a 5¼ floppy!"
     </td>
   </tr>
   <tr>
