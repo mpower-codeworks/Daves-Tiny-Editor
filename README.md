@@ -213,12 +213,12 @@ of DTE is experimental. Crinkler in that version really was just tacked on. Noth
 adjusted and
 [Version 2.0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/2_0_BACKUPS)
 with the RICHEDIT control was under development anyway. In version
-2.0 Crinker was adjusted slightly to work better with A/V and some memory
+2.0 Crinkler was adjusted slightly to work better with A/V and some memory
 refinements were configured. Mostly though, the result was the result.
 
 [Version 3.0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/3_0)
-was written with Crinker in mind every step of the way. Many groups
-of instructions were rearranged several times testing how Crinker responded.
+was written with Crinkler in mind every step of the way. Many groups
+of instructions were rearranged several times testing how Crinkler responded.
 The massive drops in exe size from 908 bytes to 794 bytes were achieved this
 way. Crinkler is not required for DTE 3.0 to build, but DTE 3.0 really is meant
 to use it.
@@ -237,7 +237,7 @@ can find the Save and X Bang buttons in the window's system menu.
 
 Compiles with: MASM and Crinkler.
 
-Version `1.0` uses the `EDIT` control with Crinkler cranked and were built-up
+Version `1.0` uses the `EDIT` control with Crinkler cranked and was built-up
 from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. NOTE:
 This has been stabilized at 926 bytes with no A/V issues.
 
