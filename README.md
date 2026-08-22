@@ -78,11 +78,16 @@ Crinkler is now part of the project’s design. Instructions are
 deliberately arranged so repeated structures fold together at
 link time, making compression itself part of the coding process.
 
+A printable [user manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
+in PDF is included with this distribution.
+
 <table>
   <tr>
     <td colspan="2">
-      If you are interested in more projects that try to make<br>
-      basic utilities in very small packages, check out:
+      <h2>
+        If you are interested in more projects that make<br>
+        basic utilities in very small packages, check out:
+      </h2>
     </td>
   </tr>
   <tr>
@@ -102,9 +107,6 @@ link time, making compression itself part of the coding process.
     </td>
   </tr>
 </table>
-
-A printable [user manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
-in PDF is included with this distribution.
 
 ## General Information
 
