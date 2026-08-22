@@ -80,22 +80,22 @@ link time, making compression itself part of the coding process.
 
 <table>
   <tr>
-    <td>
+    <td colspan="2">
       If you are interested in more projects that try to make<br>
       basic utilities in very small packages, check out:
     </td>
   </tr>
   <tr>
     <td>
-      [Sub-K](https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server)
+      <a href="https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server">Sub-K</a>
     </td>
     <td>
       a very small web server
     </td>
   </tr>
   <tr>
-    <td>      
-      [E](https://github.com/mpower-codeworks/E)      
+    <td>
+      <a href="https://github.com/mpower-codeworks/E">E</a>
     </td>
     <td>
       a very small telnet server
