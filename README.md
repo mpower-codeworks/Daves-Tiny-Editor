@@ -150,7 +150,7 @@ for the complete walk-up from a blank file to version `3.4.9`.
 
 ## The New Features
 
-The New File creation solution literally came to me in a dream. It just
+The `New File` creation solution literally came to me in a dream. It just
 appeared, and it worked. It's a bit unusual to start with a pre-named
 blank file, but it works great and only cost 4 bytes. You will see that
 in version `3.3.2`
@@ -168,7 +168,7 @@ F9 Quick Save can be found in version `3.3.7`
 and the X Bang Quit override is in `3.3.8`
 [dte30_038_X_BANG.asm](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/DTE/3_0/dte30_038_X_BANG.asm).
 
-Find was intentional; Replace was a discovery. To avoid dialog launching,
+`Find` was intentional; `Replace` was a discovery. To avoid dialog launching,
 Find simply searches for the currently highlighted text. To search for
 a word or phrase not currently in the document, just put it in the top
 of the file and delete it later. When coding, you could make a little
@@ -181,7 +181,7 @@ drawTable
 */
 ```
 
-Replace was thought to be impossible without adding machinery until it
+`Replace` was thought to be impossible without adding machinery until it
 was realized that DTE already had a rudimentary Replace already. Just
 copy the intended replacement text to clipboard, then highlight a search
 term and press `F2` or `F3`. The found term will already automatically be
@@ -191,7 +191,7 @@ search term again. Press `F2`/`F3` again and repeat. It might seem clunky
 at first glance, but in practice it works pretty decently. There is no
 "Replace All", sorry.
 
-Printing took forever to figure out. It needed to be extremely simple,
+`Printing` took forever to figure out. It needed to be extremely simple,
 or discarded as an idea. I remembered that I had seen Microsoft Office
 allow right-click on a file and choosing Print. After much thrashing about
 and many failed attempts a solution was found: Let Notepad do it. Literally
