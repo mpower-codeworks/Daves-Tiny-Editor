@@ -57,36 +57,26 @@ maximized. Because of the effects of writing to the exe with
 DTE_SETUP, the final size is 1024 whether we add the
 startup mode or not. Might as well have it then.
 
+## We're Not in Kansas Any More
+
 The results are in: DTE is now a functioning notepad-like
 editor in 1024 bytes with:
 
-- font selection
-- startup mode selection
-- new file creation (`"f"` default file)
-- printing
-- file search with wrapping
+- font and startup mode selection via DTE_SETUP
+- new file creation from the GUI (default file named `"f"`)
+- `F12` sends the file to the active printer
+- highlight any text and search with `F2` and `F3`
+- search wraps after beginning/end of file
 - replace text using search and clipboard
-- unsaved file protection
 - save button in the system menu
 - quick save with `F9`
-- `X!` (X Bang) throw away changes
+- GUI `"X"` icon disabled on unsaved file
+- `X!` (X Bang) "throw out changes"
 - an unsaved file indicator `"*"`
 
 Crinkler is now part of the project’s design. Instructions are
 deliberately arranged so repeated structures fold together at
 link time, making compression itself part of the coding process.
-
-## We're Not in Kansas Any More
-
-DTE has officially entered new territory. Now sitting 1024 bytes, it has the following capabilities added:
-- font selection and startup-up via DTE_SETUP
-- new file creation from the GUI (default file named `"f"`)
-- highlight any text and search with `F2` and `F3`
-- search wraps after beginning/end of file
-- quick-save with `F9`
-- GUI `"X"` icon disabled on unsaved file
-- `X!` added to system menu "throw out changes"
-- `F12` sends the file to the active printer
 
 ---
 If you are interested in more projects that try to make basic
