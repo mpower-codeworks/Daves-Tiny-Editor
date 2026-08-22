@@ -78,8 +78,8 @@ Crinkler is now part of the project’s design. Instructions are
 deliberately arranged so repeated structures fold together at
 link time, making compression itself part of the coding process.
 
-A printable [user manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
-in PDF is included with this distribution.
+A printable [DTE User Manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
+in pdf is included with this distribution.
 
 <table>
   <tr>
