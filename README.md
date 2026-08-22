@@ -230,7 +230,7 @@ expanded into TinyRetroPad, a full-featured Notepad work-alike editor
 in 2.62 kb! You can find TRPad [here](https://github.com/PlummersSoftwareLLC/TinyRetroPad)
 and a video about it [here](https://www.youtube.com/watch?v=OG91c7xsNMc).
 
-<img src="images/sve_exmpl.jpg" align="left" alt="System Menu"> You can find the
+<img src="images/sve_exmpl.jpg" align="left" alt="System Menu" width="150"> You can find the
 Save and X Bang buttons in the window's system menu.
 
 Compiles with: MASM and Crinkler.
