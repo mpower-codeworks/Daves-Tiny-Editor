@@ -78,14 +78,30 @@ Crinkler is now part of the project’s design. Instructions are
 deliberately arranged so repeated structures fold together at
 link time, making compression itself part of the coding process.
 
-<sub>────────────────────────────────────────</sub><br>
-If you are interested in more projects that try to make basic
-utilities in very small packages, check out
-[Sub-K](https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server)
-a very small web server and [E](https://github.com/mpower-codeworks/E)
-a very small telnet server.
-
-<sub>────────────────────────────────────────</sub><br>
+<table>
+  <tr>
+    <td>
+      If you are interested in more projects that try to make<br>
+      basic utilities in very small packages, check out:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      [Sub-K](https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server)
+    </td>
+    <td>
+      a very small web server
+    </td>
+  </tr>
+  <tr>
+    <td>      
+      [E](https://github.com/mpower-codeworks/E)      
+    </td>
+    <td>
+      a very small telnet server
+    </td>
+  </tr>
+</table>
 
 A printable [user manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
 in PDF is included with this distribution.
