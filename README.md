@@ -84,10 +84,10 @@ in PDF is included with this distribution.
 <table>
   <tr>
     <td colspan="2">
-      <h2>
+      <h4>
         If you are interested in more projects that make<br>
         basic utilities in very small packages, check out:
-      </h2>
+      </h4>
     </td>
   </tr>
   <tr>
