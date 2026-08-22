@@ -79,7 +79,7 @@ deliberately arranged so repeated structures fold together at
 link time, making compression itself part of the coding process.
 
 A printable [DTE User Manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
-in pdf is included with this distribution.
+in PDF is included with this distribution.
 
 <table>
   <tr>
@@ -111,7 +111,7 @@ in pdf is included with this distribution.
 ## General Information
 
 DTE 3.0 is a complete rewrite from a blank file up through to the
-full-featured editor presented here with version `3.4.9`. It's
+full-featured editor presented here with version `3.4.9`. Its
 features include all of the above-listed plus: 
 
 Fewer imports, persistent file handle, static class window, no
@@ -207,7 +207,7 @@ in the repo because hey, DTE can do that now.
 
 ## Crinkler is Not Bolted-On at the End
 
-Well it was, originally. Allow me explain.
+Well it was, originally. Allow me to explain.
 [Version 1.0](https://github.com/mpower-codeworks/Daves-Tiny-Editor/tree/main/DTE/1_0)
 of DTE is experimental. Crinkler in that version really was just tacked on. Nothing was
 adjusted and
@@ -274,7 +274,7 @@ sizes
 
 ## How to Use DTE:
 
-A printable [user manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
+A printable [DTE User Manual](https://github.com/mpower-codeworks/Daves-Tiny-Editor/blob/main/manual.pdf)
 in PDF is included with this distribution.
 
 ### Opening an existing file:
@@ -314,7 +314,7 @@ protection and allows the user to `"throw away changes"`.
 Highlight any text in the file and press F3 to search forwards
 or F2 to search backwards. DTE will highlight each next found
 instance for every `F2` or `F3` keypress. End of file and beginning
-of file both silently wrap to the other end. If can be very helpful
+of file both silently wrap to the other end. It can be very helpful
 to place some common search terms at the top of the file
 temporarily.
 
