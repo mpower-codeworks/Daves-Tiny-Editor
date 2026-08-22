@@ -36,13 +36,13 @@ using a custom setup tool called `DTE_SETUP`.
 tails added to DTE's framework.
 
 DTE compiled now sits at 987 bytes, though without any
-font setting. After building DTE, `DTE_SETUP` needs to be
+font setting. After building DTE, DTE_SETUP needs to be
 run at least once to choose a font, font-size, and startup
 mode.
 
 <img src="images/dte-start-mode.jpg" align="right" width="20%" alt="Start Mode">
 
-`DTE_SETUP` writes the startup state at byte 996, the font
+DTE_SETUP writes the startup state at byte 996, the font
 name at byte 1000, and the font size at byte 1020,
 expanding the configured executable to 1024 bytes.
 
