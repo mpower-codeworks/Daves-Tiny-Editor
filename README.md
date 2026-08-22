@@ -235,14 +235,6 @@ Save and X Bang buttons in the window's system menu.
 
 Compiles with: MASM and Crinkler.
 
-DTE `1.0` and `2.0` are extensions of `tiny.asm` HelloAssembly by [Dave Plummer](https://github.com/davepl).
-DTE `3.0` is a complete rewrite. All versions use [Crinkler](https://github.com/runestubbe/Crinkler) compression
-at build time.
-
-DTE is basically a wrapper around the RICHEDIT20W control from the WinAPI.
-Version `3.0` is the main distribution. 2.0 is a more standard,
-optimized tiny exe. 1.0 is limited by EDIT, and more experimental.
-
 Version `1.0` uses the `EDIT` control with Crinkler cranked and were built-up
 from tiny.asm then worked down to 890 bytes with Win Defender quite unhappy. NOTE:
 This has been stabilized at 926 bytes with no A/V issues.
